@@ -1,8 +1,4 @@
-.sass-cache
-/assets
-/controllers
-/views
-node_modules
+wp-config.php
 
 # Windows image file caches
 Thumbs.db
