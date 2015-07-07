@@ -1,0 +1,39 @@
+/*
+Theme Name: Last Déco
+Author: Fwedede
+Description: Mon deuxieme thème WordPress !
+Version: 1.0
+*/
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+/*
+Header
+*/
+.site-header {
+  height: 280px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url(images/header.png) no-repeat center top;
+  background-size: cover;
+}
+
+/*
+Content
+*/
+.site-content {
+  width: 100%;
+}
+.site-content > div {
+  display: inline-block;
+  vertical-align: top;
+}
+#primary {
+  width: 69%;
+}
+#secondary {
+  width: 30%;
+}
