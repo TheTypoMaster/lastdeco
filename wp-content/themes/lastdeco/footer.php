@@ -25,9 +25,9 @@
 				}
 			?>
 			<div class="site-info">
-				<a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'illustratr' ), 'WordPress' ); ?></a>
+				<a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'LastDeco' ), 'WordPress' ); ?></a>
 				<span class="sep"> | </span>
-				<?php printf( __( 'Theme: %1$s by %2$s.', 'illustratr' ), 'Illustratr', '<a href="https://wordpress.com/themes/" rel="designer">WordPress.com</a>' ); ?>
+				<?php printf( __( 'Theme: %1$s by %2$s.', 'illustratr' ), 'LastDeco', '<a href="https://wordpress.com/themes/" rel="designer">Last</a>' ); ?>
 			</div><!-- .site-info -->
 		</div><!-- .footer-area -->
 	</footer><!-- #colophon -->

@@ -107,10 +107,6 @@ get_header(); ?>
 
 			<?php endif; ?>
 
-			<?php illustratr_paging_nav( $post->max_num_pages ); ?>
-
-		<?php else : ?>
-
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>

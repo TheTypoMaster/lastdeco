@@ -28,20 +28,6 @@ $format = get_post_format();
 				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
 			}
 		?>
-
-		<?php
-			/* translators: used between list items, there is a space after the comma */
-			$categories_list = get_the_category_list( __( ', ', 'illustratr' ) );
-			if ( 'post' == get_post_type() && $categories_list && illustratr_categorized_blog() ) :
-		?>
-			<span class="cat-links"><?php echo $categories_list; ?></span>
-		<?php endif; ?>
-
-		<?php
-			if ( 'jetpack-portfolio' == get_post_type() ) {
-				echo get_the_term_list( $post->ID, 'jetpack-portfolio-type', '<span class="portfolio-entry-meta">', _x(', ', 'Used between list items, there is a space after the comma.', 'illustratr' ), '</span>' );
-			}
-		?>
 	</header><!-- .entry-header -->
 
 	<?php if ( 'jetpack-portfolio' != get_post_type() ) : // Don't display Content for Portfolio ?>
@@ -50,6 +36,7 @@ $format = get_post_format();
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 		<?php else : ?>
+
 		<div class="entry-content">
 			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'illustratr' ) ); ?>
 			<?php
@@ -73,7 +60,6 @@ $format = get_post_format();
 	<?php if ( 'jetpack-portfolio' != get_post_type() ) : // Don't display entry-meta for Portfolio ?>
 		<footer class="entry-meta">
 			<?php if ( 'post' == get_post_type() ) : // Hide post meta for pages on Search ?>
-				<?php illustratr_posted_on(); ?>
 
 				<?php if( has_post_format() ) : ?>
 					<span class="entry-format"><a href="<?php echo esc_url( get_post_format_link( $format ) ); ?>" title="<?php echo esc_attr( sprintf( __( 'All %s posts', 'illustratr' ), get_post_format_string( $format ) ) ); ?>"><?php echo get_post_format_string( $format ); ?></a></span>

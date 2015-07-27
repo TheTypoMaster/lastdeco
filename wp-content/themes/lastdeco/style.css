@@ -4,11 +4,17 @@ Author: Fwedede
 Description: Mon deuxieme thème WordPress !
 Version: 1.0
 */
-body, html {
+body, html, input {
   margin: 0;
   padding: 0;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Titillium Web', sans-serif;
 }
+a {text-decoration: none;color:#333333;}
+@font-face {
+	font-family: "icomoon";
+	src: url(fonts/IcoMoon-Free.ttf);
+}
+h1, h2, h3, h4, h5 {font-family: 'Permanent Marker', cursive;}
 /*
 Header
 */
@@ -24,16 +30,32 @@ Header
 /*
 Content
 */
-.site-content {
-  width: 100%;
-}
-.site-content > div {
-  display: inline-block;
-  vertical-align: top;
-}
-#primary {
-  width: 69%;
-}
-#secondary {
-  width: 30%;
-}
+.site-content {width: 100%;}
+.site-content > div {display: inline-block;vertical-align: top;}
+#primary {width: 69%;}
+#secondary {width: 22%;padding: .4rem;background-color: #990000;color: #ffffff;text-align: center;box-shadow: .1rem 0rem .2rem #666666;position:relative;top:-6.3rem;}
+
+/*
+Search
+*/
+.widget_search input {font-family: 'Permanent Marker', cursive;}
+.screen-reader-text {text-indent: -9999px;visibility: hidden;display: none;}
+
+/*
+Events
+*/
+.tribe-events-list-widget {padding-top:5rem;}
+.tribe-events-list-widget ol {padding:0;text-align:left;}
+.tribe-events-list-widget ol li {background-color:#ebe6ec;padding: .5rem;color:#333333;}
+.tribe-events-list-widget li h4 {margin:0;}
+.tribe-events-list-widget p {margin-top:-20px;text-align:right;}
+.tribe-events-list-widget p a {color:#ffffff;font-family: 'Permanent Marker', cursive;}
+
+/*
+Menu
+*/
+.menu-principal-container {background-color: #333333;font-family: 'Permanent Marker', cursive;position:relative;z-index:1;box-shadow: 0rem .1rem .2rem #000000;}
+.menu-principal-container ul {margin: 0;}
+.menu-principal-container li {display: inline-block;padding: 1rem;}
+.menu-principal-container li a {text-decoration: none;color: #cccccc;font-size: 120%;}
+.menu-principal-container li a:hover, .menu-principal-container li.current_page_item a {color:#ffffff;}
