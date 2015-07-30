@@ -6,9 +6,7 @@
  */
 
 // Don't load directly
-if ( ! defined( 'ABSPATH' ) ) {
-	exit( '-1' );
-}
+defined( 'ABSPATH' ) or exit( '-1' );
 
 
 /**
@@ -67,13 +65,8 @@ function tribe_events_partially_soldout( $event = null ) {
 	$some_have_soldout = false;
 
 	foreach ( Tribe__Events__Tickets__Tickets::get_all_event_tickets( $event->ID ) as $ticket ) {
-		if ( ! $stock_is_available && 0 < $ticket->stock ) {
-			$stock_is_available = true;
-		}
-
-		if ( ! $some_have_soldout && 0 == $ticket->stock ) {
-			$some_have_soldout = true;
-		}
+		if ( ! $stock_is_available && 0 < $ticket->stock ) $stock_is_available = true;
+		if ( ! $some_have_soldout && 0 == $ticket->stock) $some_have_soldout = true;
 	}
 
 	return $some_have_soldout && $stock_is_available;

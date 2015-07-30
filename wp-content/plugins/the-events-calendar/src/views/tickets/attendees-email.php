@@ -68,6 +68,7 @@
 		if ( $count === count( $items ) ) {
 			echo '</tbody>';
 		}
+
 	}
 	?>
 </table>

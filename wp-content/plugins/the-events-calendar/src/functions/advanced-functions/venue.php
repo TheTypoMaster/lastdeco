@@ -77,3 +77,4 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 	}
 
 }
+?>

@@ -40,7 +40,7 @@ class Tribe__Events__Template_Part_Cache {
 	 * @param $expiration         - expiration time for the cached fragment.
 	 * @param $expiration_trigger - wordpress hook to expire on.
 	 */
-	public function __construct( $template, $id, $expiration, $expiration_trigger ) {
+	function __construct( $template, $id, $expiration, $expiration_trigger ) {
 		$this->template           = $template;
 		$this->key                = $template . '_' . $id;
 		$this->expiration         = $expiration;

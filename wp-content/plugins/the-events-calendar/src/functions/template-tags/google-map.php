@@ -123,3 +123,4 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 		return apply_filters( 'tribe_show_google_map_link', $output );
 	}
 }
+?>

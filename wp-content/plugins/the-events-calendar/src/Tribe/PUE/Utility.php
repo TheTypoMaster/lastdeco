@@ -39,7 +39,7 @@ if ( ! class_exists( 'Tribe__Events__PUE__Utility' ) ) {
 			//the parts that we care about.
 			$pluginInfo = Tribe__Events__PUE__Plugin_Info::from_json( $json );
 			if ( $pluginInfo != null ) {
-				return self::from_plugin_info( $pluginInfo );
+				return Tribe__Events__PUE__Utility::from_plugin_info( $pluginInfo );
 			} else {
 				return null;
 			}
@@ -85,3 +85,4 @@ if ( ! class_exists( 'Tribe__Events__PUE__Utility' ) ) {
 		}
 	}
 }
+?>

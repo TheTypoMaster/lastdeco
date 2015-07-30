@@ -701,9 +701,8 @@ if ( ! class_exists( 'Tribe__Events__Tickets__Tickets' ) ) {
 					continue;
 				}
 
-
 				// An empty price property can be ignored (but do add if the price is explicitly set to zero)
-				elseif ( isset( $ticket->price ) && is_numeric( $ticket->price ) ) {
+				elseif ( ! empty( $ticket->price ) && is_numeric( $ticket->price ) ) {
 					$prices[] = $ticket->price;
 				}
 			}

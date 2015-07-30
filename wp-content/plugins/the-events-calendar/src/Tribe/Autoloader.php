@@ -165,6 +165,7 @@
 
 						return $path;
 					}
+
 				}
 				return false;
 			}
@@ -199,8 +200,8 @@
 					return $prefixed_path;
 				}
 
-				$class_path = ! empty( $this->class_paths[ $class ] ) ? $this->class_paths[ $class ] :false;
-				if ( $class_path ) {
+				$class_path = !empty( $this->class_paths[$class] ) ? $this->class_paths[$class] :false;
+				if ($class_path) {
 					return $class_path;
 				}
 
@@ -239,8 +240,8 @@
 				$this->dir_separator = $dir_separator;
 			}
 
-			public function register_class( $class, $path ) {
-				$this->class_paths[ $class ] = $path;
+			public function register_class($class, $path){
+				$this->class_paths[$class] = $path;
 			}
 		}
 	}
