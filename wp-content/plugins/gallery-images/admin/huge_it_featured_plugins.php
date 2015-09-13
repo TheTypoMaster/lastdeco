@@ -139,7 +139,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/slider-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/slider-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/slider-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -156,7 +156,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/potfolio-gallery-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/potfolio-gallery-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/potfolio-gallery-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -172,7 +172,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/product-catalog-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/product-catalog-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/product-catalog-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -188,7 +188,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/lightbox-logo.jpg' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/lightbox-logo.jpg' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/lightbox-logo.jpg' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -204,7 +204,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/video-gallery-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/video-gallery-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/video-gallery-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -220,7 +220,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/share-buttons-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/share-buttons-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/share-buttons-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -236,7 +236,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/google-maps-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/google-maps-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/google-maps-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -252,7 +252,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/video-player-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/video-player-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/video-player-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">
@@ -268,7 +268,7 @@
 <div class="element hugeitmicro-item">
 	<div class="left-block">
 		<div class="main-image-block">
-			<a href="<?php echo plugins_url( '../images/colorbox-logo.png' , __FILE__ ); ?>" rel="content"><img src="<?php echo plugins_url( '../images/colorbox-logo.png' , __FILE__ ); ?>"></a>
+			<img src="<?php echo plugins_url( '../images/colorbox-logo.png' , __FILE__ ); ?>">
 		</div>
 	</div>
 	<div class="right-block">

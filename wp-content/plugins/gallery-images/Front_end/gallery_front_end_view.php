@@ -124,8 +124,8 @@ $paramssld["light_box_innerwidth"] = "false";
 $paramssld["light_box_innerheight"] = "false";
 $paramssld["light_box_initialwidth"] = "300";
 $paramssld["light_box_initialheight"] = "100";
-$paramssld["light_box_maxwidth"] = "768";
-$paramssld["light_box_maxheight"] = "500";
+$paramssld["light_box_maxwidth"] = "900";
+$paramssld["light_box_maxheight"] = "700";
 $paramssld["light_box_slideshow"] = "false";
 $paramssld["light_box_slideshowspeed"] = "2500";
 $paramssld["light_box_slideshowauto"] = "true";
@@ -241,12 +241,72 @@ $paramssld["ht_view9_general_space"] = "0";
 $paramssld["ht_view9_general_separator_size"] = "0";
 $paramssld["ht_view9_general_separator_color"] = "010457";
 $paramssld["view9_general_separator_style"] = "dotted";
-$paramssld["ht_view9_general_content_count"] = "5";
 $paramssld["ht_view9_paginator_fontsize"] = "22";
 $paramssld["ht_view9_paginator_color"] = "1046B3";
 $paramssld["ht_view9_paginator_icon_color"] = "1046B3";
 $paramssld["ht_view9_paginator_icon_size"] = "18";
 $paramssld["view9_paginator_position"] = "center";
+////////////////////////////////////////////////////
+$paramssld["video_view9_loadmore_position"] = "center";
+$paramssld["video_ht_view9_loadmore_fontsize"] = "19";
+$paramssld["video_ht_view9_button_color"] = "615854";
+$paramssld["video_ht_view9_loadmore_font_color"] = "FFFFFF";
+$paramssld["loading_type"] = "1";
+$paramssld["video_ht_view9_loadmore_text"] = "View More";
+$paramssld["video_ht_view8_paginator_position"] = "center";
+$paramssld["video_ht_view8_paginator_icon_size"] = "18";
+$paramssld["video_ht_view8_paginator_icon_color"] = "26A6FC";
+$paramssld["video_ht_view8_paginator_color"] = "26A6FC";
+$paramssld["video_ht_view8_paginator_fontsize"] = "18";
+$paramssld["video_ht_view8_loadmore_position"] = "center";
+$paramssld["video_ht_view8_loadmore_fontsize"] = "14";
+$paramssld["video_ht_view8_button_color"] = "26A6FC";
+$paramssld["video_ht_view8_loadmore_font_color"] = "FF1C1C";
+$paramssld["video_ht_view8_loading_type"] = "3";
+$paramssld["video_ht_view8_loadmore_text"] = "View More";
+$paramssld["video_ht_view7_paginator_fontsize"] = "22";
+$paramssld["video_ht_view7_paginator_color"] = "0A0202";
+$paramssld["video_ht_view7_paginator_icon_color"] = "333333";
+$paramssld["video_ht_view7_paginator_icon_size"] = "22";
+$paramssld["video_ht_view7_paginator_position"] = "center";
+$paramssld["video_ht_view7_loadmore_position"] = "center";
+$paramssld["video_ht_view7_loadmore_fontsize"] = "19";
+$paramssld["video_ht_view7_button_color"] = "333333";
+$paramssld["video_ht_view7_loadmore_font_color"] = "CCCCCC";
+$paramssld["video_ht_view7_loading_type"] = "1";
+$paramssld["video_ht_view7_loadmore_text"] = "View More";
+$paramssld["video_ht_view4_paginator_fontsize"] = "19";
+$paramssld["video_ht_view4_paginator_color"] = "FF2C2C";
+$paramssld["video_ht_view4_paginator_icon_color"] = "B82020";
+$paramssld["video_ht_view4_paginator_icon_size"] = "21";
+$paramssld["video_ht_view4_paginator_position"] = "center";
+$paramssld["video_ht_view4_loadmore_position"] = "center";
+$paramssld["video_ht_view4_loadmore_fontsize"] = "16";
+$paramssld["video_ht_view4_button_color"] = "5CADFF";
+$paramssld["video_ht_view4_loadmore_font_color"] = "FF0D0D";
+$paramssld["video_ht_view4_loading_type"] = "3";
+$paramssld["video_ht_view4_loadmore_text"] = "View More";
+$paramssld["video_ht_view1_paginator_fontsize"] = "22";
+$paramssld["video_ht_view1_paginator_color"] = "222222";
+$paramssld["video_ht_view1_paginator_icon_color"] = "FF2C2C";
+$paramssld["video_ht_view1_paginator_icon_size"] = "22";
+$paramssld["video_ht_view1_paginator_position"] = "left";
+$paramssld["video_ht_view1_loadmore_position"] = "center";
+$paramssld["video_ht_view1_loadmore_fontsize"] = "22";
+$paramssld["video_ht_view1_button_color"] = "FF2C2C";
+$paramssld["video_ht_view1_loadmore_font_color"] = "FFFFFF";
+$paramssld["video_ht_view1_loading_type"] = "2";
+$paramssld["video_ht_view1_loadmore_text"] = "Load More";
+$paramssld["video_ht_view9_loadmore_font_color_hover"] = "D9D9D9";
+$paramssld["video_ht_view9_button_color_hover"] = "8F827C";
+$paramssld["video_ht_view8_loadmore_font_color_hover"] = "FF4242";
+$paramssld["video_ht_view8_button_color_hover"] = "0FEFFF";
+$paramssld["video_ht_view7_loadmore_font_color_hover"] = "D9D9D9";
+$paramssld["video_ht_view7_button_color_hover"] = "8F827C";
+$paramssld["video_ht_view4_loadmore_font_color_hover"] = "FF4040";
+$paramssld["video_ht_view4_button_color_hover"] = "99C5FF";
+$paramssld["video_ht_view1_loadmore_font_color_hover"] = "F2F2F2";
+$paramssld["video_ht_view1_button_color_hover"] = "991A1A";
 
 
 
@@ -445,7 +505,7 @@ $paramssld["view9_paginator_position"] = "center";
 	<script src="<?php // echo plugins_url('../js/jquery.colorbox.js', __FILE__);?>"></script>
 	<script src="<?php// echo plugins_url('../js/gallery-all.js', __FILE__);?>"></script>
 	<link rel="stylesheet" href="<?php echo plugins_url('../style/style2-os.css', __FILE__);?>" />
-	<script src="<?php// echo plugins_url('../js/jquery.hugeitmicro.min.js', __FILE__);?>"></script>
+	<script src="<?php// echo plugins_url('../js/jquery.isotope.min.js', __FILE__);?>"></script>
 	<link href="<?php //echo plugins_url('../style/lightbox.css', __FILE__);?>" rel="stylesheet" type="text/css" />-->
 	
 	
@@ -459,14 +519,13 @@ $paramssld["view9_paginator_position"] = "center";
 	<?php 
 	$i = $gallerychangeview;
 	switch ($i) {
-
-	case 0:
+case 0:
 	  ?>
 <script>
 jQuery(function(){
     var defaultBlockHeight=<?php echo $paramssld['ht_view2_element_height']+37; ?>;
-	var defaultBlockWidth=<?php echo $paramssld['ht_view2_element_width']; ?>;
-    var $container = jQuery('#huge_it_gallery_container_<?php echo $galleryID; ?>');
+	var defaultBlockWidth=(<?php echo $paramssld['ht_view2_element_width']; ?>);
+    var $container = jQuery('#huge_it_gallery_container_moving_<?php echo $galleryID; ?>');
 
       // add randomish size classes
       $container.find('.element_<?php echo $galleryID; ?>').each(function(){
@@ -481,7 +540,7 @@ jQuery(function(){
         }
       });
     
-    $container.hugeitmicro({
+    $container.isotope({
       itemSelector : '.element_<?php echo $galleryID; ?>',
       masonry : {
         columnWidth : defaultBlockWidth+20
@@ -524,7 +583,11 @@ jQuery(function(){
           centersection();
       });
             function centersection(){
-                var elementwidth=<?php echo $paramssld['ht_view2_element_width']; ?> + 20 + <?php echo $paramssld['ht_view2_element_border_width']*2; ?>;
+				if(jQuery(window).width() < defaultBlockWidth) {
+					jQuery("#huge_it_gallery_container_moving_<?php echo $galleryID; ?>").width('100%');
+					return;
+				}
+                var elementwidth=defaultBlockWidth + 20 + <?php echo $paramssld['ht_view2_element_border_width']*2; ?>;
                 var enterycontent=jQuery("#huge_it_gallery_container_<?php echo $galleryID; ?>").width();
                 var whole=~~(enterycontent/(elementwidth));
                 if(whole==0){ return false; }
@@ -560,7 +623,7 @@ jQuery(function(){
 		  changeLayoutMode( $this, options )
 		} else {
 
-		  $container.hugeitmicro( options );
+		  $container.isotope( options );
 		}
 
 		return false;
@@ -581,16 +644,16 @@ jQuery(function(){
 
 		  $container.addClass('no-transition').css( style );
 		  setTimeout(function(){
-			$container.removeClass('no-transition').hugeitmicro( options );
+			$container.removeClass('no-transition').isotope( options );
 		  }, 100 )
 		} else {
-		  $container.hugeitmicro( options );
+		  $container.isotope( options );
 		}
 	}
 
     var $sortBy = jQuery('#sort-by');
     jQuery('#shuffle a').click(function(){
-      $container.hugeitmicro('shuffle');
+      $container.isotope('shuffle');
       $sortBy.find('.selected').removeClass('selected');
       $sortBy.find('[data-option-value="random"]').addClass('selected');
       return false;
@@ -599,7 +662,7 @@ jQuery(function(){
 
 jQuery(document).ready(function(){
 
-	jQuery('.element_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> .image-overlay a').on('click',function(){
+	jQuery('.element_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> .gallery-image-overlay a').on('click',function(){
 		var strid = jQuery(this).attr('href').replace('#','');
 		jQuery('body').append('<div id="huge-popup-overlay"></div>');
 		jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?>').insertBefore('#huge-popup-overlay');
@@ -645,6 +708,7 @@ jQuery(document).ready(function(){
 </script>
 
 <style type="text/css">
+
 .element_<?php echo $galleryID; ?> {
 	width:100%;
 	max-width:<?php echo $paramssld['ht_view2_element_width']; ?>px;
@@ -669,7 +733,7 @@ jQuery(document).ready(function(){
 	box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important; 
 }
 
-.element_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> .image-overlay {
+.element_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> .gallery-image-overlay {
 	position:absolute;
 	top:0px;
 	left:0px;
@@ -683,11 +747,11 @@ jQuery(document).ready(function(){
 	display:none;
 }
 
-.element_<?php echo $galleryID; ?>:hover .image-block_<?php echo $galleryID; ?>  .image-overlay {
+.element_<?php echo $galleryID; ?>:hover .image-block_<?php echo $galleryID; ?>  .gallery-image-overlay {
 	display:block;
 }
 
-.element_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> .image-overlay a {
+.element_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> .gallery-image-overlay a {
 	position:absolute;
 	top:0px;
 	left:0px;
@@ -709,7 +773,7 @@ jQuery(document).ready(function(){
 .element_<?php echo $galleryID; ?> .title-block_<?php echo $galleryID; ?> h3 {
 	position:relative;
 	margin:0px !important;
-	padding:0px 1% 0px 1% !important;
+	padding:0px 1% 5px 1% !important;
 	width:98%;
 	text-overflow: ellipsis;
 	overflow: hidden; 
@@ -717,7 +781,7 @@ jQuery(document).ready(function(){
 	font-weight:normal;
 	font-size: <?php echo $paramssld["ht_view2_element_title_font_size"];?>px !important;
 	line-height: <?php echo $paramssld["ht_view2_popup_title_font_size"];?>px !important;
-	color:#<?php echo $paramssld["ht_view2_popup_title_font_color"];?>;
+	color:#<?php echo $paramssld["ht_view2_element_title_font_color"];?>;
 }
 
 .element_<?php echo $galleryID; ?> .title-block_<?php echo $galleryID; ?> .button-block {
@@ -749,6 +813,54 @@ jQuery(document).ready(function(){
 	color:#<?php echo $paramssld["ht_view2_element_linkbutton_color"];?>;
 	text-decoration:none;
 }
+.load_more5 {
+		margin: 10px 0;
+		position:relative;
+		text-align:<?php if($paramssld['video_ht_view1_loadmore_position'] == 'left') {echo 'left';} 
+			elseif ($paramssld['video_ht_view1_loadmore_position'] == 'center') { echo 'center'; }
+			elseif($paramssld['video_ht_view1_loadmore_position'] == 'right') { echo 'right'; }?>;
+
+		width:100%;
+
+
+	}
+
+	.load_more_button5 {
+		border-radius: 10px;
+		display:inline-block;
+		padding:5px 15px;
+		font-size:<?php echo $paramssld['video_ht_view1_loadmore_fontsize']; ?>px !important;;
+		color:<?php echo '#'.$paramssld['video_ht_view1_loadmore_font_color']; ?> !important;;
+		background:<?php echo '#'.$paramssld['video_ht_view1_button_color']; ?> !important;
+		cursor:pointer;
+
+	}
+	.load_more_button5:hover{
+		color:<?php echo '#'.$paramssld['video_ht_view1_loadmore_font_color_hover']; ?> !important;
+		background:<?php echo '#'.$paramssld['video_ht_view1_button_color_hover']; ?> !important;
+	}
+
+	.loading5 {
+		display:none;
+	}
+	.paginate5{
+		font-size:<?php echo $paramssld['video_ht_view1_paginator_fontsize']; ?>px !important;
+		color:<?php echo '#'.$paramssld['video_ht_view1_paginator_color']; ?> !important;
+		text-align: <?php echo $paramssld['video_ht_view1_paginator_position']; ?>;
+		margin-top:15px;
+	}
+	.paginate5 a{
+		border-bottom: none !important;
+	}
+	.icon-style5{
+		font-size: <?php echo $paramssld['video_ht_view1_paginator_icon_size']; ?>px !important;
+		color:<?php echo '#'.$paramssld['video_ht_view1_paginator_icon_color']; ?> !important;
+	}
+	.clear{
+		clear:both;
+	}
+
+
 /*#####POPUP#####*/
 
 #huge_it_gallery_popup_list_<?php echo $galleryID; ?> {
@@ -760,7 +872,7 @@ jQuery(document).ready(function(){
 	margin:0px !important;
 	padding:0px !important;
 	list-style:none;
-	z-index:30000;
+	z-index:10000;
 	display:none;
 	height:85%;
 }
@@ -825,9 +937,10 @@ jQuery(document).ready(function(){
 
 #huge_it_gallery_popup_list_<?php echo $galleryID; ?> .popup-wrapper_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> img {
 	    <?php
-            if($paramssld['ht_view2_popup_full_width'] == 'off') { echo "max-width:100% !important; max-height:100% !important;margin: 0px auto !important; position:relative;"; }
+            if($paramssld['ht_view2_popup_full_width'] == 'off') { echo "max-width:100% !important; max-height:100% !important;margin: 0px auto !important; position:relative !important; display:block;"; }
             else { echo "width:100% !important;"; }
         ?>
+	display
 	display:block;
 }
 
@@ -1008,20 +1121,71 @@ jQuery(document).ready(function(){
 		height:100%;
 		z-index:199;
 	}
-
+	
 }
 </style>
+	
 <section id="huge_it_gallery_content_<?php echo $galleryID; ?>" >
   <div id="huge_it_gallery_container_<?php echo $galleryID; ?>" class="super-list variable-sizes clearfix">
+      <div id="huge_it_gallery_container_moving_<?php echo $galleryID; ?>">
+          <input type="hidden" class="pagenum" value="1" />
+  	<?php
+			foreach($images as $image){
+			$idofgallery=$image->gallery_id ;
+			//print_r($image);
+			}
+			global $wpdb;
+			$pattern='/-/';
+			$query2=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_gallerys where id = '%d' order by ordering ASC ",$idofgallery);
+			$gallery=$wpdb->get_results($query2);
+			foreach ($gallery as $gall) {
+				global $post;
+				$pID=$post->ID;
+				$disp_type=$gall->display_type;
+				$count_page=$gall->content_per_page;
+				if($count_page==0){
+					$count_page=999;
+				}elseif(preg_match($pattern, $count_page)){
+					$count_page=preg_replace($pattern, '', $count_page);
+
+				}
+				//var_dump($count_page) ;
+
+			}
+
+			global $wpdb;
+			
+			$num=$count_page;
+			//$total = count($images) ; 
+			$total = intval(((count($images) - 1) / $num) + 1);
+			//$total_img=count($images);
+			if(isset($_GET['page-img'.$idofgallery.$pID])){
+				$page = $_GET['page-img'.$idofgallery.$pID];
+			}else{
+				$page = '';
+					}
+			
+			$page = intval($page);
+			if(empty($page) or $page < 0) $page = 1;  
+			  if($page > $total) $page = $total; 
+			$start = $page * $num - $num; 
+			$query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images where gallery_id = '%d' order by ordering ASC LIMIT ".$start.",".$num."",$idofgallery);
+			$page_images=$wpdb->get_results($query);
+			if($disp_type==2){
+				$page_images=$images;
+				$count_page=9999;
+			}
+			?>
+			<input type="hidden" id="total" value="<?=$total; ?>" />
   	<?php
 	
-	foreach($images as $key=>$row)
+	foreach($page_images as $key=>$row)
 	{
 		$link = $row->sl_url;
-		$descnohtml=strip_tags($row->description);
+		$descnohtml=strip_tags(str_replace('__5_5_5__','%',$row->description));
 		$result = substr($descnohtml, 0, 50);
 		?>
-		<div class="element_<?php echo $galleryID; ?>" tabindex="0" data-symbol="<?php echo $row->name; ?>" data-category="alkaline-earth">
+		<div class="element_<?php echo $galleryID; ?>" tabindex="0" data-symbol="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" data-category="alkaline-earth">
 			<div class="image-block_<?php echo $galleryID; ?>">
 			<?php
 					$imagerowstype=$row->sl_type;
@@ -1031,9 +1195,9 @@ jQuery(document).ready(function(){
 				?>									
 							<?php $imgurl=explode(";",$row->image_url); ?>
 							<?php 	if($row->image_url != ';'){ ?>
-							<img alt="<?php echo $row->name; ?>" id="wd-cl-img<?php echo $key; ?>" src="<?php echo get_huge_image($imgurl[0],$image_prefix); ?>"  />
+							<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" id="wd-cl-img<?php echo $key; ?>" src="<?php echo get_huge_image($imgurl[0],$image_prefix); ?>"  />
 							<?php } else { ?>
-							<img alt="<?php echo $row->name; ?>" id="wd-cl-img<?php echo $key; ?>" src="images/noimage.jpg"  />
+							<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" id="wd-cl-img<?php echo $key; ?>" src="images/noimage.jpg"  />
 							<?php
 							} ?>
 
@@ -1044,13 +1208,13 @@ jQuery(document).ready(function(){
 							<?php
 								$videourl=get_video_id_from_url($row->image_url);
 								if($videourl[1]=='youtube'){?>
-										<img alt="<?php echo $row->name; ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />		
+										<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />		
 								<?php
 									}else {
 									$hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$videourl[0].".php"));
 									$imgsrc=$hash[0]['thumbnail_large'];
 								?>
-										<img alt="<?php echo $row->name; ?>" src="<?php echo $imgsrc; ?>"  />
+										<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="<?php echo $imgsrc; ?>"  />
 								<?php
 								}
 							?>
@@ -1058,22 +1222,369 @@ jQuery(document).ready(function(){
 						break;
 					}
 				?>
-			
-				<div class="image-overlay"><a href="#<?php echo $row->id; ?>"></a></div>
+				<?php if($row->sl_url==''){
+				$viwMoreButton='';
+			}else{
+				if ($row->link_target=="on"){
+					$target='target="_blank"';
+				}else{
+					$target='';
+				}
+				$viwMoreButton='<div class="button-block"><a href="'.$row->sl_url.'" '.$target.' >'.$paramssld["ht_view2_element_linkbutton_text"].'</a></div>';
+			}
+
+
+
+
+			?>
+				<div class="gallery-image-overlay"><a href="#<?php echo $row->id; ?>"></a></div>
 			</div>
-			<div class="title-block_<?php echo $galleryID; ?>">
-				<?php if( $row->name != '' &&  $row->name != null) { ?>
-					<h3><?php echo $row->name; ?></h3>
+			<div class="title-block_<?php echo $galleryID; ?>"><?php if(str_replace('__5_5_5__','%',$row->name) != '' && str_replace('__5_5_5__','%',$row->name) != null){?>
+					<h3><?php echo str_replace('__5_5_5__','%',$row->name); ?></h3>
 				<?php }?>
-				<?php if($paramssld["ht_view2_element_show_linkbutton"]=='on'){?>
-					<div class="button-block"><a href="<?php echo $row->sl_url; ?>" <?php if ($row->link_target=="on"){echo 'target="_blank"';}?> ><?php echo $paramssld["ht_view2_element_linkbutton_text"]; ?></a></div>
+				<?php if($paramssld["ht_view2_element_show_linkbutton"]=='on'){
+				?>
+					<?php echo $viwMoreButton?>
 				<?php } ?>
 			</div>
 		</div>	
 		<?php
 	}?>
-	<div style="clear:both;"></div>
+      </div>
+      <div style="clear:both;"></div>
   </div>
+  <?php 
+		 $path_site = plugins_url("/../Front_images", __FILE__); 
+			$a=$disp_type;
+			if($a==1){
+
+				//if (!function_exists('check_url')) {
+  //  function check_url() {
+		    $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+				$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+				$pattern="/\?p=/";
+				$pattern2="/&page-img[0-9]+=[0-9]+/";
+				$pattern3="/\?page-img[0-9]+=[0-9]+/";
+					if(preg_match($pattern, $actual_link)){
+
+						if(preg_match($pattern2, $actual_link)){
+							$actual_link=preg_replace($pattern2, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+							
+						}	
+					}elseif(preg_match($pattern3, $actual_link)){
+						$actual_link=preg_replace($pattern3, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+						
+					}
+		 //  }
+ //}
+				
+				?>
+				<div class="load_more5">
+					<div class="load_more_button5"><?=$paramssld['video_ht_view1_loadmore_text']; ?></div>
+					<div class="loading5"><img src="<?php if($paramssld['video_ht_view1_loading_type'] == '1') {echo $path_site.'/arrows/loading1.gif';} 
+					elseif ($paramssld['video_ht_view1_loading_type'] == '2') { echo $path_site.'/arrows/loading4.gif'; }
+					elseif($paramssld['video_ht_view1_loading_type'] == '3') { echo $path_site.'/arrows/loading36.gif'; }
+					elseif ($paramssld['video_ht_view1_loading_type'] == '4') { echo $path_site.'/arrows/loading51.gif'; }?>"></div>
+					<script>
+						jQuery(document).ready(function(){
+							if(jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button5").length){
+								jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button5").on("click tap",function(){
+									
+
+									if(jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .pagenum:last").val()<jQuery("#huge_it_gallery_container_<?php echo $idofgallery; ?> #total").val()) {
+										
+										var pagenum = parseInt(jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .pagenum:last").val()) + 1;
+										var perpage =<?=$count_page; ?>;
+										var galleryid="<?=$image->gallery_id; ?>";
+										var thumbtext="<?php echo $paramssld["thumb_view_text"]; ?>";
+										var linkbutton="<?=$paramssld["ht_view2_element_linkbutton_text"]; ?>"
+										var showbutton="<?=$paramssld["ht_view2_element_show_linkbutton"]?>"
+										
+										//alert(pagenum+','+perpage+','+galleryid+','+width+','+height);
+										getresult(pagenum,perpage,galleryid,thumbtext,linkbutton,showbutton);
+									}else{
+										jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button5').hide();
+									}
+									return false;
+								});
+							}
+											if(jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .pagenum:last").val()==jQuery("#huge_it_gallery_container_<?php echo $idofgallery; ?> #total").val()) {
+												jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button5').hide();
+											}
+							function getresult(pagenum,perpage,galleryid,thumbtext,linkbutton,showbutton){
+								var data = {
+										action:"huge_it_video_gallery_ajax",
+										task:'load_images_content',
+										page:pagenum,
+										perpage:perpage,
+										galleryid:galleryid,
+										thumbtext:thumbtext,
+										linkbutton:linkbutton,
+										showbutton:showbutton
+								}
+								jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .loading5').show();
+								
+								jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button5').hide();
+
+								jQuery.post('<?php echo admin_url("admin-ajax.php"); ?>',data,function(response){
+									if(response.success){
+											var $objnewitems= jQuery(response.success);										
+											jQuery('#huge_it_gallery_container_moving_<?php echo $idofgallery; ?>').append( $objnewitems ).isotope( 'reloadItems' ).isotope({ sortBy: 'original-order' }).isotope( 'reLayout' );
+										jQuery('#huge_it_gallery_container_moving_<?php echo $idofgallery; ?> img').on('load',function(){
+											
+											//jQuery("#huge_it_videogallery_container_<?php echo $idofgallery; ?>").append(response.success);
+											jQuery(function(){
+												    var defaultBlockHeight=<?php echo $paramssld['ht_view2_element_height']+37; ?>;
+													var defaultBlockWidth=(<?php echo $paramssld['ht_view2_element_width']; ?>);
+												    var $container = jQuery('#huge_it_gallery_container_moving_<?php echo $galleryID; ?>');
+
+												      // add randomish size classes
+												      $container.find('.element_<?php echo $galleryID; ?>').each(function(){
+												        var $this = jQuery(this),
+												            number = parseInt( $this.find('.number').text(), 10 );
+															//alert(number);
+												        if ( number % 7 % 2 === 1 ) {
+												          $this.addClass('width2');
+												        }
+												        if ( number % 3 === 0 ) {
+												          $this.addClass('height2');
+												        }
+												      });
+												    
+												    $container.isotope({
+												      itemSelector : '.element_<?php echo $galleryID; ?>',
+												      masonry : {
+												        columnWidth : defaultBlockWidth+20
+												      },
+												      masonryHorizontal : {
+												        rowHeight: defaultBlockHeight+20
+												      },
+												      cellsByRow : {
+												        columnWidth : defaultBlockWidth+20,
+												        rowHeight : defaultBlockHeight
+												      },
+												      cellsByColumn : {
+												        columnWidth : defaultBlockWidth+20,
+												        rowHeight : defaultBlockHeight
+												      },
+												      getSortData : {
+												        symbol : function( $elem ) {
+												          return $elem.attr('data-symbol');
+												        },
+												        category : function( $elem ) {
+												          return $elem.attr('data-category');
+												        },
+												        number : function( $elem ) {
+												          return parseInt( $elem.find('.number').text(), 10 );
+												        },
+												        weight : function( $elem ) {
+												          return parseFloat( $elem.find('.weight').text().replace( /[\(\)]/g, '') );
+												        },
+												        name : function ( $elem ) {
+												          return $elem.find('.name').text();
+												        }
+												      }
+													 
+												    });
+												    
+												    
+												    <?php if($paramssld['ht_view2_content_in_center'] == 'on') { ?>
+												    centersection();
+												      jQuery(window).resize(function(){
+												          centersection();
+												      });
+												            function centersection(){
+																if(jQuery(window).width() < defaultBlockWidth) {
+																	jQuery("#huge_it_gallery_container_moving_<?php echo $galleryID; ?>").width('100%');
+																	return;
+																}
+												                var elementwidth=defaultBlockWidth + 20 + <?php echo $paramssld['ht_view2_element_border_width']*2; ?>;
+												                var enterycontent=jQuery("#huge_it_gallery_container_<?php echo $galleryID; ?>").width();
+												                var whole=~~(enterycontent/(elementwidth));
+												                if(whole==0){ return false; }
+												                else { var sectionwidth= whole * elementwidth;}
+												                jQuery("#huge_it_gallery_container_moving_<?php echo $galleryID; ?>").width(sectionwidth).css({"margin":"0px auto","overflow":"hidden",});
+												//                 alert(elementwidth + " " + enterycontent + " " + whole + " " + sectionwidth);
+												      }
+												      <?php } ?>
+												    
+												    
+												    
+													var $optionSets = jQuery('#huge_it_gallery_options .option-set'),
+													$optionLinks = $optionSets.find('a');
+
+													$optionLinks.click(function(){
+														var $this = jQuery(this);
+
+														if ( $this.hasClass('selected') ) {
+														  return false;
+														}
+														var $optionSet = $this.parents('.option-set');
+														$optionSet.find('.selected').removeClass('selected');
+														$this.addClass('selected');
+
+														var options = {},
+															key = $optionSet.attr('data-option-key'),
+															value = $this.attr('data-option-value');
+
+														value = value === 'false' ? false : value;
+														options[ key ] = value;
+														if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+
+														  changeLayoutMode( $this, options )
+														} else {
+
+														  $container.isotope( options );
+														}
+
+														return false;
+													});    
+
+													var isHorizontal = false;
+													function changeLayoutMode( $link, options ) {
+														var wasHorizontal = isHorizontal;
+														isHorizontal = $link.hasClass('horizontal');
+
+														if ( wasHorizontal !== isHorizontal ) {
+
+														  var style = isHorizontal ? 
+															{ height: '100%', width: $container.width() } : 
+															{ width: 'auto' };
+
+														  $container.filter(':animated').stop();
+
+														  $container.addClass('no-transition').css( style );
+														  setTimeout(function(){
+															$container.removeClass('no-transition').isotope( options );
+														  }, 100 )
+														} else {
+														  $container.isotope( options );
+														}
+													}
+
+												    var $sortBy = jQuery('#sort-by');
+												    jQuery('#shuffle a').click(function(){
+												      $container.isotope('shuffle');
+												      $sortBy.find('.selected').removeClass('selected');
+												      $sortBy.find('[data-option-value="random"]').addClass('selected');
+												      return false;
+												    });
+												});
+
+												jQuery(document).ready(function(){
+
+													jQuery('.element_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> .gallery-image-overlay a').on('click',function(){
+														var strid = jQuery(this).attr('href').replace('#','');
+														jQuery('body').append('<div id="huge-popup-overlay"></div>');
+														jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?>').insertBefore('#huge-popup-overlay');
+														var height = jQuery(window).height();
+														var width=jQuery(window).width();
+														if(width<=767){
+															jQuery('body').scrollTop(0);
+															jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> .popup-wrapper_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> iframe').height(jQuery('body').width()*0.5);
+														}else {jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> .popup-wrapper_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> iframe').height(jQuery('body').width()*0.23);}
+														jQuery('#huge_it_gallery_pupup_element_'+strid).addClass('active').css({height:height*0.7});
+														jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?>').addClass('active');
+														
+														return false;
+													});
+													
+													
+													jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> .heading-navigation_<?php echo $galleryID; ?> .close').on('click',function(){
+														closePopup();
+														return false;
+													});
+													
+													jQuery('body').on('click','#huge-popup-overlay',function(){
+														closePopup();
+														return false;
+													});
+													
+													function closePopup() {
+														jQuery('#huge-popup-overlay').remove();
+														var videsrc=jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> li.active iframe').attr('src');
+														jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> li.active iframe').attr('src','');
+														jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> li.active iframe').attr('src',videsrc);
+														jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> li').removeClass('active');
+														jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?>').removeClass('active');
+														
+													}
+
+													jQuery(window).resize(function(){
+														jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> .popup-wrapper_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> iframe').height(jQuery('#huge_it_gallery_popup_list_<?php echo $galleryID; ?> .popup-wrapper_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?>').width()*0.5);
+													});
+
+													
+												});  
+
+
+  
+											jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button5').show();
+											jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .loading5').hide();
+											
+											if(jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .pagenum:last").val()==jQuery("#huge_it_gallery_container_<?php echo $idofgallery; ?> #total").val()) {
+												jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button5').hide();
+											}
+										});
+										
+
+									}else{
+										alert("no");
+									}
+								},"json");
+							}
+
+						});
+					</script>
+				</div>
+				<?php 
+			}elseif($a==0){
+		?>
+			<div class="paginate5">
+			<?php
+			$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+			$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+			
+			
+			$checkREQ='';
+			$pattern="/\?p=/";
+			$pattern2="/&page-img[0-9]+=[0-9]+/";
+			//$res=preg_match($pattern, $actual_link);
+			if(preg_match($pattern, $actual_link)){
+
+				if(preg_match($pattern2, $actual_link)){
+					$actual_link=preg_replace($pattern2, '', $actual_link);
+				}
+
+				$checkREQ=$actual_link.'&page-img'.$idofgallery.$pID;
+				
+			}else{
+				$checkREQ='?page-img'.$idofgallery.$pID;
+				
+			}
+			//var_dump($res);  
+			
+			// Проверяем нужны ли стрелки назад  
+				$pervpage='';
+			if ($page != 1) $pervpage = '<a href= '.$checkREQ.'=1><i class="icon-style5 hugeiticons-fast-backward" ></i></a>  
+			                               <a href= '.$checkREQ.'='. ($page - 1) .'><i class="icon-style5 hugeiticons-chevron-left"></i></a> ';  
+			// Проверяем нужны ли стрелки вперед  
+		       $nextpage='';
+			if ($page != $total) $nextpage = ' <a href= '.$checkREQ.'='. ($page + 1) .'><i class="icon-style5 hugeiticons-chevron-right"></i></a>  
+			                                   <a href= '.$checkREQ.'=' .$total. '><i class="icon-style5 hugeiticons-fast-forward" ></i></a>'; 
+
+			// Вывод меню  
+			echo $pervpage.$page.'/'.$total.$nextpage;  
+
+			?>
+</div>
+<?php 
+}
+?>
 </section>
 <ul id="huge_it_gallery_popup_list_<?php echo $galleryID; ?>">
 	<?php
@@ -1081,7 +1592,7 @@ jQuery(document).ready(function(){
 	{
 		$imgurl=explode(";",$row->image_url);
 		$link = $row->sl_url;
-		$descnohtml=strip_tags($row->description);
+		$descnohtml=strip_tags(str_replace('__5_5_5__','%',$row->description));
 		$result = substr($descnohtml, 0, 50);
 		?>
 		<li class="pupup-element" id="huge_it_gallery_pupup_element_<?php echo $row->id; ?>">
@@ -1098,9 +1609,9 @@ jQuery(document).ready(function(){
 							case 'image':
 					?>									
 							<?php 	if($row->image_url != ';'){ ?>
-							<img alt="<?php echo $row->name; ?>" id="wd-cl-img-big-<?php echo $key; ?>" src="<?php echo $imgurl[0]; ?>"  />
+							<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" id="wd-cl-big-img<?php echo $key; ?>" src="<?php echo $imgurl[0]; ?>"  />
 							<?php } else { ?>
-							<img alt="<?php echo $row->name; ?>" id="wd-cl-img-big-<?php echo $key; ?>" src="images/noimage.jpg"  />
+							<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" id="wd-cl-big-img<?php echo $key; ?>" src="images/noimage.jpg"  />
 							<?php
 							} ?>	
 
@@ -1123,15 +1634,27 @@ jQuery(document).ready(function(){
 							break;
 						}
 					?>
+					<?php if($row->sl_url==''){
+				$viwMoreButton='';
+			}else{
+				if ($row->link_target=="on"){
+					$target='target="_blank"';
+				}else{
+					$target='';
+				}
+				$viwMoreButton='<div class="button-block"><a href="'.$row->sl_url.'" '.$target.' >'.$paramssld["ht_view2_element_linkbutton_text"].'</a></div>';
+			}
+
+
+
+
+			?>
 	
 				</div>
-				<div class="right-block">
-					<?php if($paramssld["ht_view2_show_popup_title"]=='on' && $row->name != '' &&  $row->name != null){?><h3 class="title"><?php echo $row->name; ?></h3><?php } ?>
-					<?php if($paramssld["ht_view2_show_description"]=='on'){?><div class="description"><?php echo $row->description; ?></div><?php } ?>
+				<div class="right-block">					<?php if($paramssld["ht_view2_show_popup_title"]=='on' && str_replace('__5_5_5__','%',$row->name) != '' && str_replace('__5_5_5__','%',$row->name) != null){?><h3 class="title"><?php echo str_replace('__5_5_5__','%',$row->name); ?></h3><?php } ?>
+					<?php if($paramssld["ht_view2_show_description"]=='on'){?><div class="description"><?php echo str_replace('__5_5_5__','%',$row->description); ?></div><?php } ?>
 					<?php if($paramssld["ht_view2_show_popup_linkbutton"]=='on'){?>
-						<div class="button-block">
-						<a href="<?php echo $link; ?>"  <?php if ($row->link_target=="on"){echo 'target="_blank"';}?>><?php echo $paramssld["ht_view2_popup_linkbutton_text"]; ?></a>
-						</div>
+						<?php echo $viwMoreButton; ?>
 					<?php } ?>
 					<div style="clear:both;"></div>
 				</div>
@@ -1315,7 +1838,7 @@ jQuery(document).ready(function(){
 		$imgurl=explode(";",$row->image_url);
 		//array_pop($imgurl);
 		$link = $row->sl_url;
-		$descnohtml=strip_tags($row->description);
+		$descnohtml=strip_tags(str_replace('__5_5_5__','%',$row->description));
 		$result = substr($descnohtml, 0, 50);
 		?>
 		<div class="slider-content">
@@ -1331,9 +1854,9 @@ jQuery(document).ready(function(){
 							case 'image':
 					?>									
 							<?php 	if($row->image_url != ';'){ ?>
-							<a class="group1" href="<?php echo $imgurl[0]; ?>" title="<?php echo $row->name; ?>"><img alt="<?php echo $imgurl[0]; ?>" class="main-image" src="<?php echo $imgurl[0]; ?>"  /></a>
+							<a class="group1" href="<?php echo $imgurl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>"><img alt="<?php echo $imgurl[0]; ?>" class="main-image" src="<?php echo $imgurl[0]; ?>"  /></a>
 							<?php } else { ?>
-							<img alt="<?php echo $row->name; ?>" class="main-image" src="images/noimage.jpg"  />
+							<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" class="main-image" src="images/noimage.jpg"  />
 							<?php
 							} ?>
 
@@ -1344,8 +1867,8 @@ jQuery(document).ready(function(){
 						<?php
 							$videourl=get_video_id_from_url($row->image_url);
 							if($videourl[1]=='youtube'){?>
-								<a class="youtube huge_it_gallery_item"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>">
-									<img alt="<?php echo $row->name; ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />
+								<a class="youtube huge_it_gallery_item"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>">
+									<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />
 									<div class="play-icon <?php echo $videourl[1]; ?>-icon"></div>
 								</a>								
 							<?php
@@ -1353,8 +1876,8 @@ jQuery(document).ready(function(){
 								$hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$videourl[0].".php"));
 								$imgsrc=$hash[0]['thumbnail_large'];
 							?>
-								<a class="vimeo huge_it_gallery_item" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>">
-									<img alt="<?php echo $row->name; ?>" src="<?php echo $imgsrc; ?>"  />
+								<a class="vimeo huge_it_gallery_item" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>">
+									<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="<?php echo $imgsrc; ?>"  />
 									<div class="play-icon <?php echo $videourl[1]; ?>-icon"></div>
 								</a>
 							<?php
@@ -1367,8 +1890,8 @@ jQuery(document).ready(function(){
 	
 				</div>
 				<div class="right-block">
-					<div><?php if( $row->name !='' &&  $row->name !=null){ ?><h2 class="title"><?php echo $row->name; ?></h2><?php }?></div>
-					<?php if($paramssld["ht_view5_show_description"]=='on'){?><div class="description"><?php echo $row->description; ?></div><?php } ?>
+					<div><?php if( str_replace('__5_5_5__','%',$row->name) !='' &&  str_replace('__5_5_5__','%',$row->name) !=null){ ?><h2 class="title"><?php echo str_replace('__5_5_5__','%',$row->name); ?></h2><?php }?></div>
+					<?php if($paramssld["ht_view5_show_description"]=='on'){?><div class="description"><?php echo str_replace('__5_5_5__','%',$row->description); ?></div><?php } ?>
 					<?php if($paramssld["ht_view5_show_linkbutton"]=='on'){?>
 						<div class="button-block">
 							<a href="<?php echo $link; ?>"  <?php if ($row->link_target=="on"){echo 'target="_blank"';}?>><?php echo $paramssld["ht_view5_linkbutton_text"]; ?></a>
@@ -1487,18 +2010,116 @@ jQuery(document).ready(function(){
 	color:#<?php echo $paramssld["ht_view6_title_font_hover_color"];?>;
 	text-decoration:none;
 }
+.load_more4 {
+		margin: 10px 0;
+		position:relative;
+		text-align:<?php if($paramssld['video_ht_view4_loadmore_position'] == 'left') {echo 'left';} 
+			elseif ($paramssld['video_ht_view4_loadmore_position'] == 'center') { echo 'center'; }
+			elseif($paramssld['video_ht_view4_loadmore_position'] == 'right') { echo 'right'; }?>;
+
+		width:100%;
+
+
+	}
+
+	.load_more_button4 {
+		border-radius: 10px;
+		display:inline-block;
+		padding:5px 15px;
+		font-size:<?php echo $paramssld['video_ht_view4_loadmore_fontsize']; ?>px !important;;
+		color:<?php echo '#'.$paramssld['video_ht_view4_loadmore_font_color']; ?> !important;;
+		background:<?php echo '#'.$paramssld['video_ht_view4_button_color']; ?> !important;
+		cursor:pointer;
+
+	}
+	.load_more_button4:hover{
+		color:<?php echo '#'.$paramssld['video_ht_view4_loadmore_font_color_hover']; ?> !important;
+		background:<?php echo '#'.$paramssld['video_ht_view4_button_color_hover']; ?> !important;
+	}
+
+	.loading4 {
+		display:none;
+	}
+	.paginate4{
+		font-size:<?php echo $paramssld['video_ht_view4_paginator_fontsize']; ?>px !important;
+		color:<?php echo '#'.$paramssld['video_ht_view4_paginator_color']; ?> !important;
+		text-align: <?php echo $paramssld['video_ht_view4_paginator_position']; ?>;
+		margin-top: 25px;
+	}
+	.paginate4 a{
+		border-bottom: none !important;
+	}
+	.icon-style4{
+		font-size: <?php echo $paramssld['video_ht_view4_paginator_icon_size']; ?>px !important;
+		color:<?php echo '#'.$paramssld['video_ht_view4_paginator_icon_color']; ?> !important;
+	}
+	.clear{
+		clear:both;
+	}
 </style>
 <section id="huge_it_gallery_content_<?php echo $galleryID; ?>">
   <div id="huge_it_gallery_container_<?php echo $galleryID; ?>" class="super-list variable-sizes clearfix">
+      <div id="huge_it_gallery_container_moving_<?php echo $galleryID; ?>" class="super-list variable-sizes clearfix">
+          <input type="hidden" class="pagenum" value="1" />
+  	<?php
+			foreach($images as $image){
+			$idofgallery=$image->gallery_id ;
+
+			//print_r($image);
+			}
+			global $wpdb;
+			$pattern='/-/';
+			$query2=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_gallerys where id = '%d' order by ordering ASC ",$idofgallery);
+			$gallery=$wpdb->get_results($query2);
+			foreach ($gallery as $gall) {
+				 global $post;
+				$pID=$post->ID;
+				$disp_type=$gall->display_type;
+				$count_page=$gall->content_per_page;
+				if($count_page==0){
+					$count_page=999;
+				}elseif(preg_match($pattern, $count_page)){
+					$count_page=preg_replace($pattern, '', $count_page);
+
+				}
+				//var_dump($count_page) ;
+
+			}
+
+			global $wpdb;
+			$num=$count_page;
+			//$total = count($images) ; 
+			$total = intval(((count($images) - 1) / $num) + 1);
+			//$total_img=count($images);
+			if(isset($_GET['page-img'.$idofgallery.$pID])){
+				$page = $_GET['page-img'.$idofgallery.$pID];
+			}else{
+				$page = '';
+					}
+			
+			$page = intval($page);
+			if(empty($page) or $page < 0) $page = 1;  
+			  if($page > $total) $page = $total; 
+			$start = $page * $num - $num; 
+			$query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images where gallery_id = '%d' order by ordering ASC LIMIT ".$start.",".$num."",$idofgallery);
+			$page_images=$wpdb->get_results($query);
+			if($disp_type==2){
+				$page_images=$images;
+				$count_page=9999;
+			}
+			?>
+			<input type="hidden" id="total" value="<?=$total; ?>" />
   	<?php
 	
-	foreach($images as $key=>$row)
+	
+	foreach($page_images as $key=>$row)
 	{
+		
 		$link = $row->sl_url;
-		$descnohtml=strip_tags($row->description);
+		$descnohtml=strip_tags(str_replace('__5_5_5__','%',$row->description));
 		$result = substr($descnohtml, 0, 50);
 		?>
-		<div class="element_<?php echo $galleryID; ?>" tabindex="0" data-symbol="<?php echo $row->name; ?>" data-category="alkaline-earth">
+		<div class="element_<?php echo $galleryID; ?>" tabindex="0" data-symbol="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" data-category="alkaline-earth">
 			<div class="image-block_<?php echo $galleryID; ?>">
 				<?php 
 					$imagerowstype=$row->sl_type;
@@ -1508,9 +2129,9 @@ jQuery(document).ready(function(){
 				?>									
 							<?php $imgurl=explode(";",$row->image_url); ?>
 							<?php 	if($row->image_url != ';'){ ?>
-							<a href="<?php echo $imgurl[0]; ?>" title="<?php echo $row->name; ?>"><img alt="<?php echo $row->name; ?>" id="wd-cl-img<?php echo $key; ?>" src="<?php echo get_huge_image($imgurl[0],$image_prefix); ?>"  /></a>
+							<a href="<?php echo $imgurl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>"><img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" id="wd-cl-img<?php echo $key; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="<?php echo get_huge_image($imgurl[0],$image_prefix); ?>"  /></a>
 							<?php } else { ?>
-							<img alt="<?php echo $row->name; ?>" id="wd-cl-img<?php echo $key; ?>" src="images/noimage.jpg"  />
+							<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" id="wd-cl-img<?php echo $key; ?>" src="images/noimage.jpg"  />
 							<?php
 							} ?>
 
@@ -1521,8 +2142,8 @@ jQuery(document).ready(function(){
 						<?php
 							$videourl=get_video_id_from_url($row->image_url);
 							if($videourl[1]=='youtube'){?>
-								<a class="youtube huge_it_gallery_item group1"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>">
-									<img alt="<?php echo $row->name; ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />
+								<a class="youtube huge_it_gallery_item group1"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>">
+									<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />
 									<div class="play-icon <?php echo $videourl[1]; ?>-icon"></div>
 								</a>								
 							<?php
@@ -1530,8 +2151,8 @@ jQuery(document).ready(function(){
 								$hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$videourl[0].".php"));
 								$imgsrc=$hash[0]['thumbnail_large'];
 							?>
-								<a class="vimeo huge_it_gallery_item group1" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>">
-									<img alt="<?php echo $row->name; ?>" src="<?php echo $imgsrc; ?>"  />
+								<a class="vimeo huge_it_gallery_item group1" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>">
+									<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="<?php echo $imgsrc; ?>"  />
 									<div class="play-icon <?php echo $videourl[1]; ?>-icon"></div>
 								</a>
 							<?php
@@ -1542,24 +2163,193 @@ jQuery(document).ready(function(){
 					}
 				?>
 			</div>
-			<?php if($row->name!=""){?>
+			<?php if(str_replace('__5_5_5__','%',$row->name)!=""){?>
 			<div class="title-block_<?php echo $galleryID; ?>">
-				<a href="<?php echo $link; ?>" <?php if ($row->link_target=="on"){echo 'target="_blank"';}?>><?php echo $row->name; ?></a>
+				<a href="<?php echo $link; ?>" <?php if ($row->link_target=="on"){echo 'target="_blank"';}?>><?php echo str_replace('__5_5_5__','%',$row->name); ?></a>
 			</div>
 			<?php } ?>
 		</div>	
 		<?php
 	}?>
-	<div style="clear:both;"></div>
+      </div>
+      <div style="clear:both;"></div>
   </div>
+  <?php 
+		 $path_site = plugins_url("/../Front_images", __FILE__); 
+			$a=$disp_type;
+			if($a==1){
+				 $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+				$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+				$pattern="/\?p=/";
+				$pattern2="/&page-img[0-9]+=[0-9]+/";
+				$pattern3="/\?page-img[0-9]+=[0-9]+/";
+					if(preg_match($pattern, $actual_link)){
+
+						if(preg_match($pattern2, $actual_link)){
+							$actual_link=preg_replace($pattern2, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+							
+						}	
+					}elseif(preg_match($pattern3, $actual_link)){
+						$actual_link=preg_replace($pattern3, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+						
+					}
+				?>
+				<div class="load_more4">
+					<div class="load_more_button4"><?=$paramssld['video_ht_view4_loadmore_text']; ?></div>
+					<div class="loading4"><img src="<?php if($paramssld['video_ht_view4_loading_type'] == '1') {echo $path_site.'/arrows/loading1.gif';} 
+					elseif ($paramssld['video_ht_view4_loading_type'] == '2') { echo $path_site.'/arrows/loading4.gif'; }
+					elseif($paramssld['video_ht_view4_loading_type'] == '3') { echo $path_site.'/arrows/loading36.gif'; }
+					elseif ($paramssld['video_ht_view4_loading_type'] == '4') { echo $path_site.'/arrows/loading51.gif'; }?>"></div>
+					<script>
+						jQuery(document).ready(function(){
+							if(jQuery("#huge_it_gallery_content_<?php echo $galleryID; ?> .load_more_button4").length){
+								jQuery("#huge_it_gallery_content_<?php echo $galleryID; ?> .load_more_button4").on("click tap",function(){
+
+									if(jQuery("#huge_it_gallery_content_<?php echo $galleryID; ?> .pagenum:last").val()<jQuery("#huge_it_gallery_container_<?php echo $galleryID; ?> #total").val()) {
+									var pagenum = parseInt(jQuery("#huge_it_gallery_container_moving_<?php echo $galleryID; ?> .pagenum:last").val()) + 1;
+										var perpage =<?=$count_page; ?>;
+										var galleryid="<?=$galleryID; ?>";
+										var thumbtext="<?php echo $paramssld["thumb_view_text"]; ?>";
+										//alert(pagenum+','+perpage+','+galleryid+','+width+','+height);
+										getresult(pagenum,perpage,galleryid,thumbtext);
+									}else{
+										jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button4').hide();
+									}
+									return false;
+								});
+							}
+											if(jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .pagenum:last").val()==jQuery("#huge_it_gallery_container_<?php echo $idofgallery; ?> #total").val()) {
+												jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button4').hide();
+											}
+							function getresult(pagenum,perpage,galleryid,thumbtext){
+								var data = {
+										action:"huge_it_video_gallery_ajax",
+										task:'load_images_lightbox',
+										page:pagenum,
+										perpage:perpage,
+										galleryid:galleryid,
+										thumbtext:thumbtext
+								}
+								jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .loading4').show();
+								
+								jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button4').hide();
+
+								jQuery.post('<?php echo admin_url("admin-ajax.php"); ?>',data,function(response){
+									if(response.success){
+											//alert(response.success);
+										var $objnewitems= jQuery(response.success);										
+											jQuery('#huge_it_gallery_container_moving_<?php echo $galleryID; ?>').append( $objnewitems ).isotope({ sortBy: 'original-order' }) .isotope( 'reLayout' ).isotope( 'reloadItems' );
+										jQuery('#huge_it_gallery_container_moving_<?php echo $galleryID; ?> img').on('load',function(){
+											jQuery('#huge_it_gallery_container_moving_<?php echo $galleryID; ?>').isotope({ sortBy: 'original-order' }) .isotope( 'reLayout' ).isotope( 'reloadItems' );
+											//jQuery("#huge_it_gallery_container_moving_<?php echo $galleryID; ?>").append(response.success);
+											//############# Hakob
+											
+											//############# End
+											
+											
+										jQuery("#huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.jpg'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.jpeg'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.png'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.gif']").addClass('group1');
+				
+				
+										jQuery(".group1").colorbox({rel:'group1'});
+										jQuery(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+										jQuery(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+										jQuery(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+										jQuery(".inline").colorbox({inline:true, width:"50%"});
+										jQuery(".callbacks").colorbox({
+											onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+											onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+											onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+											onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+											onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+										});
+
+										jQuery('.non-retina').colorbox({rel:'group5', transition:'none'})
+										jQuery('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+										
+
+										jQuery("#click").click(function(){ 
+											jQuery('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+											return false;
+										});
+    										
+
+  
+											jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button4').show();
+											jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .loading4').hide();
+											
+											if(jQuery("#huge_it_gallery_content_<?php echo $idofgallery; ?> .pagenum:last").val()==jQuery("#huge_it_gallery_container_<?php echo $idofgallery; ?> #total").val()) {
+												jQuery('#huge_it_gallery_content_<?php echo $idofgallery; ?> .load_more_button4').hide();
+											}
+										});
+										
+
+									}else{
+										alert("no");
+									}
+								},"json");
+							}
+
+						});
+					</script>
+				</div>
+				<?php 
+			}elseif($a==0){
+		?>
+			<div class="paginate4">
+			<?php
+			$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+			$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+			
+			
+			$checkREQ='';
+			$pattern="/\?p=/";
+			$pattern2="/&page-img[0-9]+=[0-9]+/";
+			//$res=preg_match($pattern, $actual_link);
+			if(preg_match($pattern, $actual_link)){
+
+				if(preg_match($pattern2, $actual_link)){
+					$actual_link=preg_replace($pattern2, '', $actual_link);
+				}
+
+				$checkREQ=$actual_link.'&page-img'.$idofgallery.$pID;
+				
+			}else{
+				$checkREQ='?page-img'.$idofgallery.$pID;
+				
+			}
+			//var_dump($res);  
+			
+			// Проверяем нужны ли стрелки назад  
+				$pervpage='';
+			if ($page != 1) $pervpage = '<a href= '.$checkREQ.'=1><i class="icon-style4 hugeiticons-fast-backward" ></i></a>  
+			                               <a href= '.$checkREQ.'='. ($page - 1) .'><i class="icon-style4 hugeiticons-chevron-left"></i></a> ';  
+			// Проверяем нужны ли стрелки вперед  
+		       $nextpage='';
+			if ($page != $total) $nextpage = ' <a href= '.$checkREQ.'='. ($page + 1) .'><i class="icon-style4 hugeiticons-chevron-right"></i></a>  
+			                                   <a href= '.$checkREQ.'=' .$total. '><i class="icon-style4 hugeiticons-fast-forward" ></i></a>'; 
+
+			// Вывод меню  
+			echo $pervpage.$page.'/'.$total.$nextpage;  
+
+			?>
+</div>
+<?php 
+}
+?>
 </section>
 
 <script> 
- jQuery(function(){
+ jQuery(function($){
 	 var $paramssld = []; //<add> for lighbox container correctly viewing in small sizes 
 	$paramssld['ht_view6_width'] = <?php echo $paramssld['ht_view6_width']; ?>;	
 	var defaultBlockWidth=$paramssld['ht_view6_width']+20+$paramssld['ht_view6_width']*2;
-    var $container = jQuery('#huge_it_gallery_container_<?php echo $galleryID; ?>');
+	 
+	var $container = $('.isotope');
+    var $container = jQuery('#huge_it_gallery_container_moving_<?php echo $galleryID; ?>');
     
     
       // add randomish size classes
@@ -1577,7 +2367,7 @@ jQuery(document).ready(function(){
 	  reSortImages();
 	  function reSortImages() {//<add> for lighbox container correctly viewing in small sizes
 		$paramssld['ht_view6_width'] = (<?php echo $paramssld['ht_view6_width'];?> > jQuery(window).width())?jQuery(window).width():<?php echo $paramssld['ht_view6_width'];?>;   
-		$container.hugeitmicro({
+		$container.isotope({
 		  itemSelector : '.element_<?php echo $galleryID; ?>',
 		  masonry : {
 			columnWidth :  $paramssld['ht_view6_width']+10
@@ -1639,7 +2429,7 @@ jQuery(document).ready(function(){
           changeLayoutMode( $this, options )
         } else {
 
-          $container.hugeitmicro( options );
+          $container.isotope( options );
         }
         
         return false;
@@ -1648,7 +2438,7 @@ jQuery(document).ready(function(){
       jQuery(window).resize(function(){
 		reSortImages();
       });   
-      <?php if(isset($paramssld['ht_view6_content_in_center']) && $paramssld['ht_view6_content_in_center'] == 'on') { ?>
+      <?php if($paramssld['ht_view6_content_in_center'] == 'on') { ?>
 		centersection();
 		reSortImages();
       jQuery(window).resize(function(){
@@ -1688,23 +2478,23 @@ jQuery(document).ready(function(){
 
           $container.addClass('no-transition').css( style );
           setTimeout(function(){
-            $container.removeClass('no-transition').hugeitmicro( options );
+            $container.removeClass('no-transition').isotope( options );
           }, 100 )
         } else {
-          $container.hugeitmicro( options );
+          $container.isotope( options );
         }
       }
      
     var $sortBy = jQuery('#sort-by');
     jQuery('#shuffle a').click(function(){
-      $container.hugeitmicro('shuffle');
+      $container.isotope('shuffle');
       $sortBy.find('.selected').removeClass('selected');
       $sortBy.find('[data-option-value="random"]').addClass('selected');
       return false;
     });
 
 	  jQuery(window).load(function(){
-		$container.hugeitmicro('reLayout');
+		$container.isotope('reLayout');
 	  });
   });
   
@@ -3282,13 +4072,13 @@ jQuery(function(){
 								if ($image_row->link_target=="on"){$target='target="_blank"';}
 								echo '<a href="'.$image_row->sl_url.'" '.$target.'>';
 							} ?>
-							<img alt="<?php echo $image_row->name; ?>" id="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>_<?php echo $key;?>" class="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>" src="<?php echo $image_row->image_url; ?>" data-image_id="<?php echo $image_row->id; ?>" />
+							<img alt="<?php echo str_replace('__5_5_5__','%',$image_row->name); ?>" id="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>_<?php echo $key;?>" class="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>" src="<?php echo $image_row->image_url; ?>" data-image_id="<?php echo $image_row->id; ?>" />
 							<?php if($image_row->sl_url!=""){ echo '</a>'; }?>		
-							<div class="huge_it_slideshow_title_text_gallery_<?php echo $sliderID; ?> <?php if(trim($image_row->name)=="") echo "none"; ?>">
-								<?php echo $image_row->name; ?>
+							<div class="huge_it_slideshow_title_text_gallery_<?php echo $sliderID; ?> <?php if(trim(str_replace('__5_5_5__','%',$image_row->name))=="") echo "none"; ?>">
+								<?php echo str_replace('__5_5_5__','%',$image_row->name); ?>
 							</div>
-							<div class="huge_it_slideshow_description_text_gallery_<?php echo $sliderID; ?> <?php if(trim($image_row->description)=="") echo "none"; ?>">
-								<?php echo $image_row->description; ?>
+							<div class="huge_it_slideshow_description_text_gallery_<?php echo $sliderID; ?> <?php if(trim(str_replace('__5_5_5__','%',$image_row->description))=="") echo "none"; ?>">
+								<?php echo str_replace('__5_5_5__','%',$image_row->description); ?>
 							</div>
 						  </li>
 						  <?php
@@ -3307,14 +4097,14 @@ jQuery(function(){
 											if ($image_row->link_target=="on"){$target='target="_blank"';}
 											echo '<a href="'.$last_posts["guid"].'" '.$target.'>';
 									} ?>
-									<img alt="<?php echo $image_row->name; ?>" id="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>" class="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>" src="<?php echo $imagethumb[0]; ?>" data-image_id="<?php echo $image_row->id; ?>" />
+									<img alt="<?php echo str_replace('__5_5_5__','%',$image_row->name); ?>" id="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>" class="huge_it_slideshow_image_gallery_<?php echo $sliderID; ?>" src="<?php echo $imagethumb[0]; ?>" data-image_id="<?php echo $image_row->id; ?>" />
 									<?php if($image_row->sl_postlink=="1"){ echo '</a>'; }?>		
 									<div class="huge_it_slideshow_title_text_gallery_<?php echo $sliderID; ?> <?php if(trim($last_posts["post_title"])=="") echo "none";  if($image_row->sl_stitle!="1") echo " hidden"; ?>">
 											<?php echo $last_posts["post_title"]; ?>
 									</div>
 									<div class="huge_it_slideshow_description_text_gallery_<?php echo $sliderID; ?> <?php if(trim($last_posts["post_content"])=="") echo "none"; if($image_row->sl_sdesc!="1") echo " hidden"; ?>">
 										<?php 
-										echo substr_replace($last_posts["post_content"], "", $image_row->description); ?>
+										echo substr_replace($last_posts["post_content"], "", str_replace('__5_5_5__','%',$image_row->description)); ?>
 									</div>
 								 </li>
 								  <?php
@@ -3436,6 +4226,48 @@ jQuery(function(){
 				border-radius: <?php echo $paramssld["thumb_image_border_radius"]; ?>px;
 				margin:0px !important;
 			}
+			.load_more3 {
+				margin: 10px 0;
+				position:relative;
+				text-align:<?php if($paramssld['video_ht_view7_loadmore_position'] == 'left') {echo 'left';} 
+					elseif ($paramssld['video_ht_view7_loadmore_position'] == 'center') { echo 'center'; }
+					elseif($paramssld['video_ht_view7_loadmore_position'] == 'right') { echo 'right'; }?>;
+
+				width:100%;
+			}
+
+			.load_more_button3 {
+				border-radius: 10px;
+				display:inline-block;
+				padding:5px 15px;
+				font-size:<?php echo $paramssld['video_ht_view7_loadmore_fontsize']; ?>px !important;;
+				color:<?php echo '#'.$paramssld['video_ht_view7_loadmore_font_color']; ?> !important;;
+				background:<?php echo '#'.$paramssld['video_ht_view7_button_color']; ?> !important;
+				cursor:pointer;
+
+			}
+			.load_more_button3:hover{
+				color:<?php echo '#'.$paramssld['video_ht_view7_loadmore_font_color_hover']; ?> !important;
+				background:<?php echo '#'.$paramssld['video_ht_view7_button_color_hover']; ?> !important;
+			} 
+			.loading3 {
+				display:none;
+			}
+			.paginate3{
+				font-size:<?php echo $paramssld['video_ht_view7_paginator_fontsize']; ?>px !important;
+				color:<?php echo '#'.$paramssld['video_ht_view7_paginator_color']; ?> !important;
+				text-align: <?php echo $paramssld['video_ht_view7_paginator_position']; ?>;
+			}
+			.paginate3 a{
+				border-bottom: none !important;
+			}
+			.icon-style3{
+				font-size: <?php echo $paramssld['video_ht_view7_paginator_icon_size']; ?>px !important;
+				color:<?php echo '#'.$paramssld['video_ht_view7_paginator_icon_color']; ?> !important;
+			}
+			.clear{
+				clear:both;
+			}
 			
 			
   			section #huge_it_gallery li:hover .overLayer {
@@ -3461,10 +4293,58 @@ jQuery(function(){
 			
 			section #huge_it_gallery p {text-align:center;}
 		</style>
-		<section>
+		<section id="thumbwrapper<?=$galleryID; ?>">
+			<input type="hidden" class="pagenum" value="1" />
 			<ul id="huge_it_gallery">
 				<li id="fullPreview"></li>
-				<?php  foreach($images as $key=>$row) { 
+				<?php
+			foreach($images as $image){
+			$idofgallery=$image->gallery_id ;
+			//print_r($image);
+			}
+			global $wpdb;
+			$pattern='/-/';
+			$query2=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_gallerys where id = '%d' order by ordering ASC ",$idofgallery);
+			$gallery=$wpdb->get_results($query2);
+			foreach ($gallery as $gall) {
+				 global $post;
+				$pID=$post->ID;
+				$disp_type=$gall->display_type;
+				$count_page=$gall->content_per_page;
+				if($count_page==0){
+					$count_page=999;
+				}elseif(preg_match($pattern, $count_page)){
+					$count_page=preg_replace($pattern, '', $count_page);
+
+				}
+				//var_dump($count_page) ;
+
+			}
+
+			global $wpdb;
+			$num=$count_page;
+			//$total = count($images) ; 
+			$total = intval(((count($images) - 1) / $num) + 1);
+			//$total_img=count($images);
+			if(isset($_GET['page-img'.$idofgallery.$pID])){
+				$page = $_GET['page-img'.$idofgallery.$pID];
+			}else{
+				$page = '';
+					}
+			
+			$page = intval($page);
+			if(empty($page) or $page < 0) $page = 1;  
+			  if($page > $total) $page = $total; 
+			$start = $page * $num - $num; 
+			$query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images where gallery_id = '%d' order by ordering ASC LIMIT ".$start.",".$num."",$idofgallery);
+			$page_images=$wpdb->get_results($query);
+			if($disp_type==2){
+				$page_images=$images;
+				$count_page=9999;
+			}
+			?>
+			<input type="hidden" id="total" value="<?=$total; ?>" />
+				<?php  foreach($page_images as $key=>$row) { 
 				$imgurl=explode(";",$row->image_url); ?>
 				<li class="huge_it_big_li">
 				<?php 
@@ -3474,8 +4354,8 @@ jQuery(function(){
 					switch($imagerowstype){
 						case 'image': 
 					?>									
-						<a class="group1" href="<?php echo $row->image_url; ?>" title="<?php echo $row->name; ?>"></a>
-						<img alt="<?php echo $row->name; ?>" src="<?php echo get_huge_image($row->image_url,$image_prefix); ?>" />
+						<a class="group1" href="<?php echo $row->image_url; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>"></a>
+						<img  src="<?php echo get_huge_image($row->image_url,$image_prefix); ?>" alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" />
 					<?php 
 						break;
 						case 'video':
@@ -3483,15 +4363,15 @@ jQuery(function(){
 							<?php
 								$videourl=get_video_id_from_url($row->image_url);
 								if($videourl[1]=='youtube'){?>
-									<a class="youtube huge_it_gallery_item group1"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>"></a>
-									<img alt="<?php echo $row->name; ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />				
+									<a class="youtube huge_it_gallery_item group1"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>"></a>
+									<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg"  />				
 								<?php
 								}else {
 									$hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$videourl[0].".php"));
 									$imgsrc=$hash[0]['thumbnail_large'];
 								?>
-									<a class="vimeo huge_it_gallery_item group1" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>"></a>
-									<img alt="<?php echo $row->name; ?>" src="<?php echo $imgsrc; ?>"  />
+									<a class="vimeo huge_it_gallery_item group1" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>"></a>
+									<img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="<?php echo $imgsrc; ?>"  />
 								<?php
 								}
 							?>
@@ -3502,12 +4382,10 @@ jQuery(function(){
 					<div class="overLayer"></div>
 					<div class="infoLayer">
 						<ul>
-							<li>
-							<?php if($row->name !='' && $row->name != null){?>
+							<li>							<?php if(str_replace('__5_5_5__','%',$row->name) != '' && str_replace('__5_5_5__','%',$row->name) != null) {?>
 								<h2>
-									<?php echo $row->name; ?>
-								</h2>
-							<?php }?> 
+									<?php echo str_replace('__5_5_5__','%',$row->name); ?>
+								</h2>							<?php }?>
 							</li>
 							<li>
 								<p>
@@ -3520,6 +4398,154 @@ jQuery(function(){
 				<?php }  ?>
 				
 			</ul>
+			<?php 
+		 $path_site = plugins_url("/../Front_images", __FILE__); 
+			$a=$disp_type;
+			if($a==1){
+				 $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+				$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+				$pattern="/\?p=/";
+				$pattern2="/&page-img[0-9]+=[0-9]+/";
+				$pattern3="/\?page-img[0-9]+=[0-9]+/";
+					if(preg_match($pattern, $actual_link)){
+
+						if(preg_match($pattern2, $actual_link)){
+							$actual_link=preg_replace($pattern2, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+							
+						}	
+					}elseif(preg_match($pattern3, $actual_link)){
+						$actual_link=preg_replace($pattern3, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+						
+					}
+				?>
+				<div class="load_more3">
+					<div class="load_more_button3"><?=$paramssld['video_ht_view7_loadmore_text']; ?></div>
+					<div class="loading3"><img src="<?php if($paramssld['video_ht_view7_loading_type'] == '1') {echo $path_site.'/arrows/loading1.gif';} 
+					elseif ($paramssld['video_ht_view7_loading_type'] == '2') { echo $path_site.'/arrows/loading4.gif'; }
+					elseif($paramssld['video_ht_view7_loading_type'] == '3') { echo $path_site.'/arrows/loading36.gif'; }
+					elseif ($paramssld['video_ht_view7_loading_type'] == '4') { echo $path_site.'/arrows/loading51.gif'; }?>"></div>
+					<script>
+						jQuery(document).ready(function(){
+							if(jQuery("#thumbwrapper<?=$idofgallery; ?> .load_more_button3").length){
+								jQuery("#thumbwrapper<?=$idofgallery; ?> .load_more_button3").on("click tap",function(){
+
+									if(jQuery("#thumbwrapper<?=$idofgallery; ?> .pagenum:last").val()<jQuery("#thumbwrapper<?=$idofgallery; ?> #total").val()) {
+										var pagenum = parseInt(jQuery("#thumbwrapper<?=$idofgallery; ?> .pagenum:last").val()) + 1;
+										var perpage =<?=$count_page; ?>;
+										var galleryid="<?=$idofgallery; ?>";
+										var thumbtext="<?php echo $paramssld["thumb_view_text"]; ?>";
+										
+										//alert(pagenum+','+perpage+','+galleryid+','+width+','+height);
+										getresult(pagenum,perpage,galleryid,thumbtext);
+									}else{
+										jQuery('#thumbwrapper<?=$idofgallery; ?> .load_more_button3').hide();
+									}
+									return false;
+								});
+							}
+											if(jQuery("#thumbwrapper<?=$idofgallery; ?> .pagenum:last").val()==jQuery("#thumbwrapper<?=$idofgallery; ?> #total").val()) {
+												jQuery('#thumbwrapper<?=$idofgallery; ?> .load_more_button3').hide();
+											}
+							function getresult(pagenum,perpage,galleryid,thumbtext){
+								var data = {
+										action:"huge_it_video_gallery_ajax",
+										task:'load_image_thumbnail',
+										page:pagenum,
+										perpage:perpage,
+										galleryid:galleryid,
+										thumbtext:thumbtext
+								}
+								jQuery('#thumbwrapper<?=$idofgallery; ?> .loading3').show();
+								
+								jQuery('#thumbwrapper<?=$idofgallery; ?> .load_more_button3').hide();
+
+								jQuery.post('<?php echo admin_url("admin-ajax.php"); ?>',data,function(response){
+									if(response.success){
+										jQuery("#thumbwrapper<?=$idofgallery; ?> #huge_it_gallery").append(response.success);
+										jQuery('#thumbwrapper<?=$idofgallery; ?> #huge_it_gallery img').on('load',function(){
+											
+											//alert('hi')
+											jQuery(".group1").colorbox({rel:'group1'});
+											jQuery(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+											jQuery(".inline").colorbox({inline:true, width:"50%"});
+											jQuery(".callbacks").colorbox({
+												onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+												onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+												onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+												onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+												onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+											});
+
+											jQuery('.non-retina').colorbox({rel:'group5', transition:'none'})
+											jQuery('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+											jQuery('#thumbwrapper<?=$idofgallery; ?> .load_more_button3').show();
+											jQuery('#thumbwrapper<?=$idofgallery; ?> .loading3').hide();
+											
+											if(jQuery("#thumbwrapper<?=$idofgallery; ?> .pagenum:last").val()==jQuery("#thumbwrapper<?=$idofgallery; ?> #total").val()) {
+												jQuery('#thumbwrapper<?=$idofgallery; ?> .load_more_button3').hide();
+											}
+										});
+									
+
+									}else{
+										alert("no");
+									}
+								},"json");
+							}
+
+						});
+					</script>
+				</div>
+				<?php 
+			}elseif($a==0){
+		?>
+			<div class="paginate3">
+			<?php
+			$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+			$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+			
+			
+			$checkREQ='';
+			$pattern="/\?p=/";
+			$pattern2="/&page-img[0-9]+=[0-9]+/";
+			//$res=preg_match($pattern, $actual_link);
+			if(preg_match($pattern, $actual_link)){
+
+				if(preg_match($pattern2, $actual_link)){
+					$actual_link=preg_replace($pattern2, '', $actual_link);
+				}
+
+				$checkREQ=$actual_link.'&page-img'.$idofgallery.$pID;
+				
+			}else{
+				$checkREQ='?page-img'.$idofgallery.$pID;
+				
+			}
+			//var_dump($res);  
+			
+			// Проверяем нужны ли стрелки назад  
+				$pervpage='';
+			if ($page != 1) $pervpage = '<a href= '.$checkREQ.'=1><i class="icon-style3 hugeiticons-fast-backward" ></i></a>  
+			                               <a href= '.$checkREQ.'='. ($page - 1) .'><i class="icon-style3 hugeiticons-chevron-left"></i></a> ';  
+			// Проверяем нужны ли стрелки вперед  
+		       $nextpage='';
+			if ($page != $total) $nextpage = ' <a href= '.$checkREQ.'='. ($page + 1) .'><i class="icon-style3 hugeiticons-chevron-right"></i></a>  
+			                                   <a href= '.$checkREQ.'=' .$total. '><i class="icon-style3 hugeiticons-fast-forward" ></i></a>'; 
+
+			// Вывод меню  
+			echo $pervpage.$page.'/'.$total.$nextpage;  
+
+			?>
+</div>
+<?php 
+}
+?>
 		</section>
 		<?php
 		break;
@@ -3641,6 +4667,52 @@ jQuery(function(){
                 height:100%;	
 
         }
+        .load_more2 {
+		margin: 10px 0;
+		position:relative;
+		text-align:<?php if($paramssld['video_ht_view8_loadmore_position'] == 'left') {echo 'left';} 
+			elseif ($paramssld['video_ht_view8_loadmore_position'] == 'center') { echo 'center'; }
+			elseif($paramssld['video_ht_view8_loadmore_position'] == 'right') { echo 'right'; }?>;
+
+		width:100%;
+
+
+	}
+
+	.load_more_button2 {
+		border-radius: 10px;
+		display:inline-block;
+		padding:5px 15px;
+		font-size:<?php echo $paramssld['video_ht_view8_loadmore_fontsize']; ?>px !important;;
+		color:<?php echo '#'.$paramssld['video_ht_view8_loadmore_font_color']; ?> !important;;
+		background:<?php echo '#'.$paramssld['video_ht_view8_button_color']; ?> !important;
+		cursor:pointer;
+
+	}
+	.load_more_button2:hover{
+		color:<?php echo '#'.$paramssld['video_ht_view8_loadmore_font_color_hover']; ?> !important;
+		background:<?php echo '#'.$paramssld['video_ht_view8_button_color_hover']; ?> !important;
+	} 
+
+	.loading2 {
+		display:none;
+	}
+	.paginate2{
+		font-size:<?php echo $paramssld['video_ht_view8_paginator_fontsize']; ?>px !important;
+		color:<?php echo '#'.$paramssld['video_ht_view8_paginator_color']; ?> !important;
+		text-align: <?php echo $paramssld['video_ht_view8_paginator_position']; ?>;
+		margin-top: 25px;
+	}
+	.paginate2 a{
+		border-bottom: none !important;
+	}
+	.icon-style2{
+		font-size: <?php echo $paramssld['video_ht_view8_paginator_icon_size']; ?>px !important;
+		color:<?php echo '#'.$paramssld['video_ht_view8_paginator_icon_color']; ?> !important;
+	}
+	.clear{
+		clear:both;
+	}
 
         .play-icon.youtube-icon {background:url(<?php echo plugin_dir_url( __FILE__ ); ?>../images/play.youtube.png) center center no-repeat;}
         .play-icon.vimeo-icon {background:url(<?php echo plugin_dir_url( __FILE__ ); ?>../images/play.vimeo.png) center center no-repeat;}
@@ -3649,14 +4721,65 @@ jQuery(function(){
 
 <?php
     $path_site = plugins_url("", __FILE__);
-?>
+?>			<div id="mygallery_wrapper_<?php echo $galleryID; ?>" class="clearfix">
                 <div id="mygallery_<?php echo $galleryID; ?>" class="clearfix">
-                    <?php
-                    foreach($images as $key=>$row)
+                    <?php foreach($images as $image){
+						$idofgallery=$image->gallery_id ;
+						//print_r($image);
+						}
+						global $wpdb;
+						$pattern='/-/';
+						$query2=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_gallerys where id = '%d' order by ordering ASC ",$idofgallery);
+						$gallery=$wpdb->get_results($query2);
+						foreach ($gallery as $gall) {
+							 global $post;
+							$pID=$post->ID;
+							$disp_type=$gall->display_type;
+							$count_page=$gall->content_per_page;
+							if($count_page==0){
+								$count_page=999;
+							}elseif(preg_match($pattern, $count_page)){
+								$count_page=preg_replace($pattern, '', $count_page);
+
+							}
+							//var_dump($count_page) ;
+
+						}
+
+						global $wpdb;
+						$num=$count_page;
+						//$total = count($images) ; 
+						$total = intval(((count($images) - 1) / $num) + 1);
+						//$total_img=count($images);
+						if(isset($_GET['page-img'.$idofgallery.$pID])){
+							$page = $_GET['page-img'.$idofgallery.$pID];
+						}else{
+							$page = '';
+								}
+						
+						$page = intval($page);
+						if(empty($page) or $page < 0) $page = 1;  
+						  if($page > $total) $page = $total; 
+						$start = $page * $num - $num; 
+						$query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images where gallery_id = '%d' order by ordering ASC LIMIT ".$start.",".$num."",$idofgallery);
+						
+						$page_images=$wpdb->get_results($query);
+						if($disp_type==2){
+							$page_images=$images;
+							$count_page=9999;
+						}
+					
+						?>
+						
+
+				<input type="hidden" id="total" value="<?=$total; ?>" />
+				                <?php
+
+                    foreach($page_images as $key=>$row)
                     {
                         $imgurl=explode(";",$row->image_url);
                         $link = $row->sl_url;
-                        $descnohtml=strip_tags($row->description);
+                        $descnohtml=strip_tags(str_replace('__5_5_5__','%',$row->description));
                         $result = substr($descnohtml, 0, 50);
                         $imagerowstype=$row->sl_type;
                         if($row->sl_type == ''){$imagerowstype='image';}
@@ -3664,11 +4787,13 @@ jQuery(function(){
                             case 'image':
                     ?>
                                 <?php 	if($row->image_url != ';'){ ?>
-                                <a class="group1" href="<?php echo $imgurl[0]; ?>" title="<?php echo $row->name; ?>">
-                                    <img alt="<?php echo $row->name; ?>" id="wd-cl-img<?php echo $key; ?>" src="<?php echo get_huge_image($imgurl[0],$image_prefix); ?>"/>
+                                <a class="group1" href="<?php echo $imgurl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>">
+                                    <img  id="wd-cl-img<?php echo $key; ?>" alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="<?php echo get_huge_image($imgurl[0],$image_prefix); ?>"/>
                                 </a>
+                                <input type="hidden" class="pagenum" value="1" />
                                 <?php } else { ?>
-                                <img alt="<?php echo $row->name; ?>" id="wd-cl-img<?php echo $key; ?>" src="images/noimage.jpg"  />
+                                <img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" id="wd-cl-img<?php echo $key; ?>" src="images/noimage.jpg"  />
+                                <input type="hidden" class="pagenum" value="1" />
                                 <?php
                                 } ?>
                                 <?php break;
@@ -3677,26 +4802,204 @@ jQuery(function(){
                             
                                 $videourl=get_video_id_from_url($row->image_url);
                                 if($videourl[1]=='youtube'){?>
-                                        <a class="youtube huge_it_gallery_item group1"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>">
-                                                <img alt="<?php echo $row->name; ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg" />
+                                        <a class="youtube huge_it_gallery_item group1"  href="https://www.youtube.com/embed/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>">
+                                                <img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="http://img.youtube.com/vi/<?php echo $videourl[0]; ?>/mqdefault.jpg" alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" />
                                                 <div class="play-icon <?php echo $videourl[1]; ?>-icon"></div>
                                         </a>
+                                        <input type="hidden" class="pagenum" value="1" />
                                 <?php }
                                 else {
                                         $hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$videourl[0].".php"));
                                         $imgsrc=$hash[0]['thumbnail_large'];
                                 ?>
-                                        <a class="vimeo huge_it_gallery_item group1" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo $row->name; ?>">
-                                                <img alt="<?php echo $row->name; ?>" src="<?php echo $imgsrc; ?>" />
+                                        <a class="vimeo huge_it_gallery_item group1" href="http://player.vimeo.com/video/<?php echo $videourl[0]; ?>" title="<?php echo str_replace('__5_5_5__','%',$row->name); ?>">
+                                                <img alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" src="<?php echo $imgsrc; ?>" alt="<?php echo str_replace('__5_5_5__','%',$row->name); ?>" />
                                                 <div class="play-icon <?php echo $videourl[1]; ?>-icon"></div>
                                         </a>
+                                        <input type="hidden" class="pagenum" value="1" />
                                 <?php
                                 }
                         }
                     }
                     ?>
                 </div>
+                 <script>
+                jQuery(document).ready(function($){
+                	$( window ).load(function(){
+                	$('.justified-gallery a').each(function(){
+                		var img=$(this).find('img');
+                		if($(this).find('img').attr('alt')==''){
+                		//	alert('yo');
+                			img.parent().find(".caption" ).css('display','none');
+                		}
+                	})
+                	})
+                })
+                </script>
+                <?php 
+		 $path_site = plugins_url("/../Front_images", __FILE__); 
+			$a=$disp_type;
+			if($a==1){
+				 $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+				$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+				$pattern="/\?p=/";
+				$pattern2="/&page-img[0-9]+=[0-9]+/";
+				$pattern3="/\?page-img[0-9]+=[0-9]+/";
+					if(preg_match($pattern, $actual_link)){
 
+						if(preg_match($pattern2, $actual_link)){
+							$actual_link=preg_replace($pattern2, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+							
+						}	
+					}elseif(preg_match($pattern3, $actual_link)){
+						$actual_link=preg_replace($pattern3, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+						
+					}
+				?>
+				<div class="load_more2">
+					<div class="load_more_button2 load_more_button_<?php echo $galleryID; ?>"><?=$paramssld['video_ht_view8_loadmore_text']; ?></div>
+					<div class="loading2 loading_<?php echo $galleryID; ?>"><img src="<?php if($paramssld['video_ht_view8_loading_type'] == '1') {echo $path_site.'/arrows/loading1.gif';} 
+					elseif ($paramssld['video_ht_view8_loading_type'] == '2') { echo $path_site.'/arrows/loading4.gif'; }
+					elseif($paramssld['video_ht_view8_loading_type'] == '3') { echo $path_site.'/arrows/loading36.gif'; }
+					elseif ($paramssld['video_ht_view8_loading_type'] == '4') { echo $path_site.'/arrows/loading51.gif'; }?>"></div>
+					<script>
+						jQuery(document).ready(function(){
+
+							if(jQuery("#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>").length){
+								jQuery("#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>").on("click tap",function(){
+									//alert(jQuery(this).length);
+
+									if(jQuery("#mygallery_<?php echo $galleryID; ?> .pagenum:last").val()<jQuery("#mygallery_wrapper_<?php echo $galleryID; ?> #total").val()) {
+										
+										var pagenum = parseInt(jQuery("#mygallery_<?php echo $galleryID; ?> .pagenum:last").val()) + 1;
+										//alert(pagenum);
+										var perpage ="<?=$count_page; ?>";
+										var galleryid="<?=$galleryID; ?>";
+										
+										getresult(pagenum,perpage,galleryid);
+									}else{
+										jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>').hide();
+									}
+									return false;
+								});
+							}
+							if(jQuery("#mygallery_<?php echo $galleryID; ?> .pagenum:last").val()==jQuery("#mygallery_<?php echo $galleryID; ?> #total").val()) {
+												jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>').hide();
+											}			
+							function getresult(pagenum,perpage,galleryid){
+
+								var data = {
+										action:"huge_it_video_gallery_ajax",
+										task:'load_image_justified',
+										page:pagenum,
+										perpage:perpage,
+										galleryid:galleryid
+																			
+								}
+								jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .loading_<?php echo $galleryID; ?>').show();
+								jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>').hide();
+								
+								jQuery.post('<?php echo admin_url("admin-ajax.php"); ?>',data,function(response){
+									jQuery('.justified-gallery a').each(function(){
+				                		var img=jQuery(this).find('img');
+				                		if(jQuery(this).find('img').attr('alt')==''){
+				                		//	alert('yo');
+				                			img.parent().find(".caption" ).css('display','none');
+				                		}
+				                	})
+									if(response.success){
+											jQuery("#mygallery_<?php echo $galleryID; ?>").append(response.success);
+											jQuery("#mygallery_<?php echo $galleryID; ?>").justifiedGallery();
+										jQuery('#mygallery_<?php echo $galleryID; ?> img').on('load',function(){
+											
+											jQuery(".group1").colorbox({rel:'group1'});
+											jQuery(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+											jQuery(".inline").colorbox({inline:true, width:"50%"});
+											jQuery(".callbacks").colorbox({
+												onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+												onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+												onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+												onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+												onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+											});
+
+											jQuery('.non-retina').colorbox({rel:'group5', transition:'none'})
+											jQuery('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+											jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>').show();
+											jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .loading_<?php echo $galleryID; ?>').hide();
+											
+											if(jQuery("#mygallery_<?php echo $galleryID; ?> .pagenum:last").val()==jQuery("#mygallery_<?php echo $galleryID; ?> #total").val()) {
+												jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>').hide();
+											}
+										});
+										
+
+									}else{
+										alert("no");
+									}
+								},"json");
+							}
+
+						});
+					</script>
+				</div>
+				<?php 
+			}elseif($a==0){
+		?>
+		<div class="paginate2">
+			<?php
+			$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+			$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+			
+			
+			$checkREQ='';
+			$pattern="/\?p=/";
+			$pattern2="/&page-img[0-9]+=[0-9]+/";
+			//$res=preg_match($pattern, $actual_link);
+			if(preg_match($pattern, $actual_link)){
+
+				if(preg_match($pattern2, $actual_link)){
+					$actual_link=preg_replace($pattern2, '', $actual_link);
+				}
+
+				$checkREQ=$actual_link.'&page-img'.$idofgallery.$pID;
+				
+			}else{
+				$checkREQ='?page-img'.$idofgallery.$pID;
+				
+			}
+			//var_dump($res);  
+			
+			// Проверяем нужны ли стрелки назад  
+				$pervpage='';
+			if ($page != 1) $pervpage = '<a href= '.$checkREQ.'=1><i class="icon-style2 hugeiticons-fast-backward" ></i></a>  
+			                               <a href= '.$checkREQ.'='. ($page - 1) .'><i class="icon-style2 hugeiticons-chevron-left"></i></a> ';  
+			// Проверяем нужны ли стрелки вперед  
+		       $nextpage='';
+			if ($page != $total) $nextpage = ' <a href= '.$checkREQ.'='. ($page + 1) .'><i class="icon-style2 hugeiticons-chevron-right"></i></a>  
+			                                   <a href= '.$checkREQ.'=' .$total. '><i class="icon-style2 hugeiticons-fast-forward" ></i></a>';  
+
+			// Находим две ближайшие станицы с обоих краев, если они есть  
+			/*if($page - 2 > 0) $page2left = ' <a href= ./?page='. ($page - 2) .'>'. ($page - 2) .'</a> | ';  
+			if($page - 1 > 0) $page1left = '<a href= ./?page='. ($page - 1) .'>'. ($page - 1) .'</a> | ';  
+			if($page + 2 <= $total) $page2right = ' | <a href= ./?page='. ($page + 2) .'>'. ($page + 2) .'</a>';  
+			if($page + 1 <= $total) $page1right = ' | <a href= ./?page='. ($page + 1) .'>'. ($page + 1) .'</a>'; */
+
+			// Вывод меню  
+			echo $pervpage.$page.'/'.$total.$nextpage;  
+
+			?>
+</div>
+            </div>
+<?php 
+}
+?>
 
 <script>
     jQuery(document).ready(function(){
@@ -3705,9 +5008,10 @@ jQuery(function(){
 
 }); 
 </script>
+
   <?php	  
 	break;
-
+/////////////Blog Style View/////////////
 case 7:
 ?>
 <style>
@@ -3775,47 +5079,102 @@ case 7:
 		font-size: <?php echo $paramssld['ht_view9_paginator_icon_size']; ?>px !important;
 		color:<?php echo '#'.$paramssld['ht_view9_paginator_icon_color']; ?> !important;;
 	}
+	.load_more {
+		margin: 10px 0;
+		position:relative;
+		text-align:<?php if($paramssld['video_view9_loadmore_position'] == 'left') {echo 'left';} 
+			elseif ($paramssld['video_view9_loadmore_position'] == 'center') { echo 'center'; }
+			elseif($paramssld['video_view9_loadmore_position'] == 'right') { echo 'right'; }?>;
+
+		width:100%;
+
+
+	}
+
+	.load_more_button {
+		border-radius: 10px;
+		display:inline-block;
+		padding:5px 15px;
+		font-size:<?php echo $paramssld['video_ht_view9_loadmore_fontsize']; ?>px !important;
+		color:<?php echo '#'.$paramssld['video_ht_view9_loadmore_font_color']; ?> !important;
+		background:<?php echo '#'.$paramssld['video_ht_view9_button_color']; ?> !important;
+		cursor:pointer;
+
+	}
+	.load_more_button:hover{
+		color:<?php echo '#'.$paramssld['video_ht_view9_loadmore_font_color_hover']; ?> !important;
+		background:<?php echo '#'.$paramssld['video_ht_view9_button_color_hover']; ?> !important;
+	} 
+	.loading {
+		display:none;
+	}
 	.clear{
 		clear:both;
 	}
 </style>
-<div class="view9_cont_wrapper">
 <?php
-foreach($images as $image){
+	foreach($images as $image){
+	global $post;
+	$pID=$post->ID;
 	$idofgallery=$image->gallery_id ;
-}
+}?>
+<div class="video_view9_cont_wrapper" id="video_view9_cont_wrapper<?=$idofgallery; ?>">
+	<div id="video_view9_cont_list<?=$idofgallery; ?>">
+<?php
 	
-global $wpdb;
-$num=5;
-//$total = count($images) ; 
-$total = intval(((count($images) - 1) / $num) + 1);
-//$total_img=count($images);
-if(isset($_GET['page-img'])){
-	$page = $_GET['page-img'];
-}
-else
-{
-	$page = '';
-}
+	global $wpdb;
+	$pattern='/-/';
+	$query2=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_gallerys where id = '%d' order by ordering ASC ",$idofgallery);
+	$gallery=$wpdb->get_results($query2);
+	foreach ($gallery as $gall) {
+		$disp_type=$gall->display_type;
+		$count_page=$gall->content_per_page;
+		if($count_page==0){
+			$count_page=999;
+		}elseif(preg_match($pattern, $count_page)){
+			$count_page=preg_replace($pattern, '', $count_page);
 
-$page = intval($page);
-if(empty($page) or $page < 0) $page = 1;  
-  if($page > $total) $page = $total; 
-$start = $page * $num - $num; 
-//var_dump($start);
-//var_dump($total);
-$query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images where gallery_id = '%d' order by ordering ASC LIMIT ".$start.",".$num."",$idofgallery);
+		}
+		//var_dump($count_page) ;
+
+	}
+
+	global $wpdb;
+	$num=$count_page;
+	//$total = count($images) ; 
+	$total = intval(((count($images) - 1) / $num) + 1);
+	//$total_img=count($images);
+	if(isset($_GET['page-img'.$idofgallery.$pID])){
+		$page = $_GET['page-img'.$idofgallery.$pID];
+	}else{
+		$page = '';
+			}
+	
+	$page = intval($page);
+	if(empty($page) or $page < 0) $page = 1;  
+	  if($page > $total) $page = $total; 
+	$start = $page * $num - $num; 
+	$query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images where gallery_id = '%d' order by ordering ASC LIMIT ".$start.",".$num."",$idofgallery);
+	
 	$page_images=$wpdb->get_results($query);
+	if($disp_type==2){
+		$page_images=$images;
+		$count_page=9999;
+	}
+	?>
+	<input type="hidden" id="total" value="<?=$total; ?>" />
+	<?php
 	foreach($page_images as $key=>$row)
 	{
 		
 		$img_src=$row->image_url;
-		$img_name=$row->name;
-		$img_desc=$row->description;
+		$img_name=str_replace('__5_5_5__','%',$row->name);
+		$img_desc=str_replace('__5_5_5__','%',$row->description);
 		if($paramssld['view9_image_position'] == 1) :
 		?>
 
 		<div class="view9_container">
+			<input type="hidden" class="pagenum" value="1" />
 			<img class="view9_img" src="<?php echo $img_src;?>">
 			<h1 class="new_view_title"><?php echo $img_name;?></h1>
 			<div class="new_view_desc"><?php echo $img_desc;?></div>
@@ -3827,6 +5186,7 @@ $query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images wher
 		elseif($paramssld['view9_image_position'] == 2) :
 		?>
 		<div class="view9_container">
+			<input type="hidden" class="pagenum" value="1" />
 			<h1 class="new_view_title"><?php echo $img_name;?></h1>
 			<img class="view9_img" src="<?php echo $img_src;?>">
 			<div class="new_view_desc"><?php echo $img_desc;?></div>
@@ -3836,6 +5196,7 @@ $query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images wher
 		elseif($paramssld['view9_image_position'] == 3) :
 		?>
 		<div class="view9_container">
+			<input type="hidden" class="pagenum" value="1" />
 			<h1 class="new_view_title"><?php echo $img_name;?></h1>
 			<div class="new_view_desc"><?php echo $img_desc;?></div>
 			<img class="view9_img" src="<?php echo $img_src;?>">
@@ -3846,44 +5207,141 @@ $query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images wher
 		endif;
 		
 	}
+?>
+</div>	
+		<?php 
+		 $path_site = plugins_url("/../Front_images", __FILE__); 
+			$a=$disp_type;
+			if($a==1){
+				 $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+				$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+				$pattern="/\?p=/";
+				$pattern2="/&page-img[0-9]+=[0-9]+/";
+				$pattern3="/\?page-img[0-9]+=[0-9]+/";
+					if(preg_match($pattern, $actual_link)){
 
-	
+						if(preg_match($pattern2, $actual_link)){
+							$actual_link=preg_replace($pattern2, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+							
+						}	
+					}elseif(preg_match($pattern3, $actual_link)){
+						$actual_link=preg_replace($pattern3, '', $actual_link);
+							header("Location:".$actual_link."");
+							exit;
+						
+					}
+				?>
+				<div class="load_more">
+					<div class="load_more_button"><?=$paramssld['video_ht_view9_loadmore_text']; ?></div>
+					<div class="loading"><img src="<?php if($paramssld['loading_type'] == '1') {echo $path_site.'/arrows/loading1.gif';} 
+					elseif ($paramssld['loading_type'] == '2') { echo $path_site.'/arrows/loading4.gif'; }
+					elseif($paramssld['loading_type'] == '3') { echo $path_site.'/arrows/loading36.gif'; }
+					elseif ($paramssld['loading_type'] == '4') { echo $path_site.'/arrows/loading51.gif'; }?>"></div>
+					<script>
+						jQuery(document).ready(function(){
+							if(jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> .load_more_button").length){
+								jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> .load_more_button").on("click tap",function(){
+									if(jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> .pagenum:last").val()<jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> #total").val()) {
+										var pagenum = parseInt(jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> .pagenum:last").val()) + 1;
+										var perpage =<?=$count_page; ?>;
+										var galleryid="<?=$idofgallery; ?>";
+										var position="<?=$paramssld['view9_image_position']; ?>";
+										getresult(pagenum,perpage,galleryid,position);
+									}else{
+										jQuery('#video_view9_cont_wrapper<?=$idofgallery; ?> .load_more_button').hide();
+									}
+									return false;
+								});
+							}
+if(jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> .pagenum:last").val()==jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> #total").val()) {
+												jQuery('#video_view9_cont_wrapper<?=$idofgallery; ?> .load_more_button').hide();
+											}
+							function getresult(pagenum,perpage,galleryid,position){
+								var data = {
+										action:"huge_it_video_gallery_ajax",
+										task:'load_blog_view',
+										page:pagenum,
+										perpage:perpage,
+										galleryid:galleryid,
+										position:position
+								}
+								jQuery('#video_view9_cont_wrapper<?=$idofgallery; ?> .loading').show();
+								jQuery('#video_view9_cont_wrapper<?=$idofgallery; ?> .load_more_button').hide();
+								jQuery.post('<?php echo admin_url("admin-ajax.php"); ?>',data,function(response){
+									if(response.success){
+										jQuery("#video_view9_cont_list<?=$idofgallery; ?>").append(response.success);
+										jQuery('#video_view9_cont_list<?=$idofgallery; ?> img').on('load',function(){											
+											jQuery('#video_view9_cont_wrapper<?=$idofgallery; ?> .load_more_button').show();
+											jQuery('#video_view9_cont_wrapper<?=$idofgallery; ?> .loading').hide();
+											
+											if(jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> .pagenum:last").val()==jQuery("#video_view9_cont_wrapper<?=$idofgallery; ?> #total").val()) {
+												jQuery('#video_view9_cont_wrapper<?=$idofgallery; ?> .load_more_button').hide();
+											}
+										});
+										
+
+									}else{
+										alert("no");
+									}
+								},"json");
+							}
+
+						});
+					</script>
+				</div>
+				<?php 
+			}elseif($a==0){
 		?>
 		<div class="paginate">
 				<?php
-				$actual_link = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
-				$checkREQ='';
-				$pattern="/\?p=/";
-				//$res=preg_match($pattern, $actual_link);
-				if(preg_match($pattern, $actual_link)){
-					$checkREQ='./?p=1&page-img';
-					
-				}else{
-					$checkREQ='?page-img';
-					
+			$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+			$actual_link = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."";
+			
+			
+			$checkREQ='';
+			$pattern="/\?p=/";
+			$pattern2="/&page-img[0-9]+=[0-9]+/";
+			$pattern3="/?page-img[0-9]+=[0-9]+/";
+			//$res=preg_match($pattern, $actual_link);
+			if(preg_match($pattern, $actual_link)){
+
+				if(preg_match($pattern2, $actual_link)){
+					$actual_link=preg_replace($pattern2, '', $actual_link);
 				}
-				//var_dump($res);  
+
+				$checkREQ=$actual_link.'&page-img'.$idofgallery.$pID;
 				
-				// Проверяем нужны ли стрелки назад 
-				 $pervpage='';
-				if ($page != 1) $pervpage = '<a href= '.$checkREQ.'=1><i class="icon-style hugeiticons-fast-backward" ></i></a>  
-				                               <a href= '.$checkREQ.'='. ($page - 1) .'><i class="icon-style hugeiticons-chevron-left"></i></a> ';  
-				// Проверяем нужны ли стрелки вперед 
-				$nextpage=''; 
-				if ($page != $total) $nextpage = ' <a href= '.$checkREQ.'='. ($page + 1) .'><i class="icon-style hugeiticons-chevron-right"></i></a>  
-				                                   <a href= '.$checkREQ.'=' .$total. '><i class="icon-style hugeiticons-fast-forward" ></i></a>'; 
+			}else{
+				$checkREQ='?page-img'.$idofgallery.$pID;
+				
+			}
+			//var_dump($res);  
+			
+			// Проверяем нужны ли стрелки назад  
+				$pervpage='';
+			if ($page != 1) $pervpage = '<a href= '.$checkREQ.'=1><i class="icon-style hugeiticons-fast-backward" ></i></a>  
+			                               <a href= '.$checkREQ.'='. ($page - 1) .'><i class="icon-style hugeiticons-chevron-left"></i></a> ';  
+			// Проверяем нужны ли стрелки вперед  
+		       $nextpage='';
+			if ($page != $total) $nextpage = ' <a href= '.$checkREQ.'='. ($page + 1) .'><i class="icon-style hugeiticons-chevron-right"></i></a>  
+			                                   <a href= '.$checkREQ.'=' .$total. '><i class="icon-style hugeiticons-fast-forward" ></i></a>';  
 
-				// Находим две ближайшие станицы с обоих краев, если они есть  
-				/*if($page - 2 > 0) $page2left = ' <a href= ./?page='. ($page - 2) .'>'. ($page - 2) .'</a> | ';  
-				if($page - 1 > 0) $page1left = '<a href= ./?page='. ($page - 1) .'>'. ($page - 1) .'</a> | ';  
-				if($page + 2 <= $total) $page2right = ' | <a href= ./?page='. ($page + 2) .'>'. ($page + 2) .'</a>';  
-				if($page + 1 <= $total) $page1right = ' | <a href= ./?page='. ($page + 1) .'>'. ($page + 1) .'</a>'; */
+			// Находим две ближайшие станицы с обоих краев, если они есть  
+			/*if($page - 2 > 0) $page2left = ' <a href= ./?page='. ($page - 2) .'>'. ($page - 2) .'</a> | ';  
+			if($page - 1 > 0) $page1left = '<a href= ./?page='. ($page - 1) .'>'. ($page - 1) .'</a> | ';  
+			if($page + 2 <= $total) $page2right = ' | <a href= ./?page='. ($page + 2) .'>'. ($page + 2) .'</a>';  
+			if($page + 1 <= $total) $page1right = ' | <a href= ./?page='. ($page + 1) .'>'. ($page + 1) .'</a>'; */
 
-				// Вывод меню  
-				echo $pervpage.$page.'/'.$total.$nextpage;  
+			// Вывод меню  
+			echo $pervpage.$page.'/'.$total.$nextpage;  
 
-				?>
+			?>
 				</div>
+				<?php
+			}
+			?>
 </div>
 
 		<?php

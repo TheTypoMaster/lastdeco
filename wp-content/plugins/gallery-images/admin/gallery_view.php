@@ -186,9 +186,10 @@ function html_showgallerys( $rows,  $pageNav,$sort,$cat_row){
 			 <input type="hidden" name="order_by" id="order_by" value="<?php if(isset($_POST['order_by'])) echo $_POST['order_by'];?>"  />
 			 <input type="hidden" name="saveorder" id="saveorder" value="" />
 
-			 <?php
-			?>
-			
+			<?php @session_start();
+		  $hugeItCSRFToken = $_SESSION["csrf_token_hugeit_gallery"] = md5(time());
+	?>
+	<input type="hidden" name="csrf_token_hugeit_gallery" value="<?php echo $hugeItCSRFToken; ?>" />
 			
 		   
 			</form>
@@ -363,7 +364,7 @@ jQuery(document).ready(function($){
 						</div>
 						<?php $_GET['id'] = esc_html($_GET['id']); ?>					
 						<a href="admin.php?page=gallerys_huge_it_gallery&task=gallery_video&id=<?php echo $_GET['id']; ?>&TB_iframe=1" class="button button-primary add-video-slide thickbox"  id="slideup3s" value="iframepop">
-							<span class="wp-media-buttons-icon"></span>Add Video Slide
+							<span class="wp-media-buttons-icon"></span>Add Video
 						</a>
 
 
@@ -443,11 +444,11 @@ jQuery(document).ready(function($){
 							<div class="image-options">
 								<div>
 									<label for="titleimage<?php echo $rowimages->id; ?>">Title:</label>
-									<input  class="text_area" type="text" id="titleimage<?php echo $rowimages->id; ?>" name="titleimage<?php echo $rowimages->id; ?>" id="titleimage<?php echo $rowimages->id; ?>"  value="<?php echo $rowimages->name; ?>">
+									<input  class="text_area" type="text" id="titleimage<?php echo $rowimages->id; ?>" name="titleimage<?php echo $rowimages->id; ?>" id="titleimage<?php echo $rowimages->id; ?>"  value="<?php echo str_replace('__5_5_5__','%',$rowimages->name); ?>">
 								</div>
 								<div class="description-block">
 									<label for="im_description<?php echo $rowimages->id; ?>">Description:</label>
-									<textarea id="im_description<?php echo $rowimages->id; ?>" name="im_description<?php echo $rowimages->id; ?>" ><?php echo $rowimages->description; ?></textarea>
+									<textarea id="im_description<?php echo $rowimages->id; ?>" name="im_description<?php echo $rowimages->id; ?>" ><?php echo str_replace('__5_5_5__','%',$rowimages->description); ?></textarea>
 								</div>
 								<div class="link-block">
 									<label for="sl_url<?php echo $rowimages->id; ?>">URL:</label>
@@ -482,9 +483,9 @@ jQuery(document).ready(function($){
 										<?php $categories = get_categories(); ?>
 										<label for="titleimage<?php echo $rowimages->id; ?>">Show Posts From:</label>
 										<select name="titleimage<?php echo $rowimages->id; ?>" class="categories-list">
-											<option <?php if($rowimages->name == 0){echo 'selected="selected"';} ?> value="0">All Categories</option>
+											<option <?php if(str_replace('__5_5_5__','%',$rowimages->name) == 0){echo 'selected="selected"';} ?> value="0">All Categories</option>
 										<?php foreach ($categories as $strcategories){ ?>
-											<option <?php if($rowimages->name == $strcategories->cat_name){echo 'selected="selected"';} ?> value="<?php echo $strcategories->cat_name; ?>"><?php echo $strcategories->cat_name; ?></option>
+											<option <?php if(str_replace('__5_5_5__','%',$rowimages->name) == $strcategories->cat_name){echo 'selected="selected"';} ?> value="<?php echo $strcategories->cat_name; ?>"><?php echo $strcategories->cat_name; ?></option>
 										<?php	}	?> 
 										</select>
 									</div>
@@ -507,7 +508,7 @@ jQuery(document).ready(function($){
 									</div>
 									<div class="left">
 										<label for="im_description<?php echo $rowimages->id; ?>">Description Symbols Number:</label>
-										<input value="<?php echo $rowimages->description; ?>" class="text_area url-input number" id="im_description<?php echo $rowimages->id; ?>" type="number" name="im_description<?php echo $rowimages->id; ?>" />
+										<input value="<?php echo str_replace('__5_5_5__','%',$rowimages->description); ?>" class="text_area url-input number" id="im_description<?php echo $rowimages->id; ?>" type="number" name="im_description<?php echo $rowimages->id; ?>" />
 									</div>
 								</div>
 								<div>
@@ -586,11 +587,11 @@ jQuery(document).ready(function($){
 									<div class="image-options">
 								<div>
 									<label for="titleimage<?php echo $rowimages->id; ?>">Title:</label>
-									<input  class="text_area" type="text" id="titleimage<?php echo $rowimages->id; ?>" name="titleimage<?php echo $rowimages->id; ?>" id="titleimage<?php echo $rowimages->id; ?>"  value="<?php echo $rowimages->name; ?>">
+									<input  class="text_area" type="text" id="titleimage<?php echo $rowimages->id; ?>" name="titleimage<?php echo $rowimages->id; ?>" id="titleimage<?php echo $rowimages->id; ?>"  value="<?php echo str_replace('__5_5_5__','%',$rowimages->name); ?>">
 								</div>
 								<div class="description-block">
 									<label for="im_description<?php echo $rowimages->id; ?>">Description:</label>
-									<textarea id="im_description<?php echo $rowimages->id; ?>" name="im_description<?php echo $rowimages->id; ?>" ><?php echo $rowimages->description; ?></textarea>
+									<textarea id="im_description<?php echo $rowimages->id; ?>" name="im_description<?php echo $rowimages->id; ?>" ><?php echo str_replace('__5_5_5__','%',$rowimages->description); ?></textarea>
 								</div>
 								<div class="link-block">
 									<label for="sl_url<?php echo $rowimages->id; ?>">URL:</label>
@@ -623,10 +624,14 @@ jQuery(document).ready(function($){
 			<div id="postbox-container-1" class="postbox-container">
 				<div id="side-sortables" class="meta-box-sortables ui-sortable">
 					<div id="gallery-unique-options" class="postbox">
-					<h3 class="hndle"><span>Select The Gallery View</span></h3>
+					<h3 class="hndle"><span>Image Gallery Custom Options</span></h3>
 					<ul id="gallery-unique-options-list">
 						<li>
-							<label for="huge_it_sl_effects">Views</label>
+							<label for="huge_it_gallery_name">Gallery name</label>
+							<input type = "text" name="name" id="huge_it_gallery_name" value="<?php echo esc_html(stripslashes($row->name));?>" onkeyup = "name_changeRight(this)">
+						</li>
+						<li>
+							<label for="huge_it_sl_effects">Select View</label>
 							<select name="huge_it_sl_effects" id="huge_it_sl_effects">
 									<option <?php if($row->huge_it_sl_effects == '0'){ echo 'selected'; } ?>  value="0">Gallery/Content-Popup</option>
 									<option <?php if($row->huge_it_sl_effects == '1'){ echo 'selected'; } ?>  value="1">Content Slider</option>
@@ -634,13 +639,41 @@ jQuery(document).ready(function($){
 									<option <?php if($row->huge_it_sl_effects == '3'){ echo 'selected'; } ?>  value="3">Slider</option>
 									<option <?php if($row->huge_it_sl_effects == '4'){ echo 'selected'; } ?>  value="4">Thumbnails View</option>
                                     <option <?php if($row->huge_it_sl_effects == '6'){ echo 'selected'; } ?>  value="6">Justified</option>
-                                    <option <?php if($row->huge_it_sl_effects == '7'){ echo 'selected'; } ?>  value="7">Block Style Gallery</option>
+                                    <option <?php if($row->huge_it_sl_effects == '7'){ echo 'selected'; } ?>  value="7">Blog Style Gallery</option>
 							</select>
 						</li>
-						<li>
-							<label for="huge_it_gallery_name">Gallery name</label>
-							<input type = "text" name="name" id="huge_it_gallery_name" value="<?php echo esc_html(stripslashes($row->name));?>" onkeyup = "name_changeRight(this)">
-						</li>	
+						<script>
+						jQuery(document).ready(function ($){
+							//alert('hi');
+							//$('div[id^="list_"]')
+								if($('select[name="display_type"]').val()== 2){
+								$('li[id="content_per_page"]').hide();
+							}else{
+								$('li[id="content_per_page"]').show();
+							}
+							$('select[name="display_type"]').on('change' ,function(){
+								if($(this).val()== 2){
+								$('li[id="content_per_page"]').hide();
+							}else{
+								$('li[id="content_per_page"]').show();
+							}
+							})
+							
+
+							$('#gallery-unique-options').on('change',function(){
+								$( 'div[id^="gallery-current-options"]').each(function(){
+								if(!$(this).hasClass( "active" )){
+									$(this).find('ul li input[name="content_per_page"]').attr('name', '');
+									$(this).find('ul li select[name="display_type"]').attr('name', '');
+									//$(this).find('ul li select').attr('name', '');
+								}else{
+									//alert('no');
+								}
+							})
+							})
+							
+						})
+					</script>	
 					<div id="gallery-current-options-3" class="gallery-current-options <?php if($row->huge_it_sl_effects == 3){ echo ' active'; }  ?>">
 					<ul id="slider-unique-options-list">
 						<li>
@@ -696,6 +729,116 @@ jQuery(document).ready(function($){
 						</li>
 					</ul>
 					</div>
+						<div id="gallery-current-options-0" class="gallery-current-options <?php if($row->huge_it_sl_effects == 0){ echo ' active'; }  ?>">
+					<ul id="view0">
+						
+						  <li>
+							<label for="display_type">Displaying Content</label>
+							<select id="display_type" name="display_type">
+
+								  <option <?php if($row->display_type == 0){ echo 'selected'; } ?>  value="0">Pagination</option>
+									<option <?php if($row->display_type == 1){ echo 'selected'; } ?>   value="1">Load More</option>
+									<option <?php if($row->display_type == 2){ echo 'selected'; } ?>   value="2">Show All</option>
+						
+							</select>
+							</li>
+						<li id="content_per_page">
+							<label for="content_per_page">Images Per Page</label>
+							<input type="text" name="content_per_page" id="content_per_page" value="<?php echo $row->content_per_page; ?>" class="text_area" />
+						</li>
+						
+
+					
+					</ul>
+					</div>
+						<div id="gallery-current-options-5" class="gallery-current-options <?php if($row->huge_it_sl_effects == 5){ echo ' active'; }  ?>">
+					<ul id="view5">
+						
+						  <li>
+							<label for="display_type">Displaying Content</label>
+							<select id="display_type" name="display_type">
+
+								  <option <?php if($row->display_type == 0){ echo 'selected'; } ?>  value="0">Pagination</option>
+									<option <?php if($row->display_type == 1){ echo 'selected'; } ?>   value="1">Load More</option>
+									<option <?php if($row->display_type == 2){ echo 'selected'; } ?>   value="2">Show All</option>
+						
+							</select>
+							</li>
+						<li id="content_per_page">
+							<label for="content_per_page">Images Per Page</label>
+							<input type="text" name="content_per_page" id="content_per_page" value="<?php echo $row->content_per_page; ?>" class="text_area" />
+						</li>
+						
+
+					
+					</ul>
+					</div>
+					<div id="gallery-current-options-4" class="gallery-current-options <?php if($row->huge_it_sl_effects == 4){ echo ' active'; }  ?>">
+					<ul id="view4">
+						
+						  <li>
+							<label for="display_type">Displaying Content</label>
+							<select id="display_type" name="display_type">
+
+								  <option <?php if($row->display_type == 0){ echo 'selected'; } ?>  value="0">Pagination</option>
+									<option <?php if($row->display_type == 1){ echo 'selected'; } ?>   value="1">Load More</option>
+									<option <?php if($row->display_type == 2){ echo 'selected'; } ?>   value="2">Show All</option>
+						
+							</select>
+							</li>
+						<li id="content_per_page">
+							<label for="content_per_page">Images Per Page</label>
+							<input type="text" name="content_per_page" id="content_per_page" value="<?php echo $row->content_per_page; ?>" class="text_area" />
+						</li>
+						
+
+					
+					</ul>
+					</div>
+					<div id="gallery-current-options-6" class="gallery-current-options <?php if($row->huge_it_sl_effects == 6){ echo ' active'; }  ?>">
+					<ul id="view6">
+						
+						  <li>
+							<label for="display_type">Displaying Content</label>
+							<select id="display_type" name="display_type">
+
+								  <option <?php if($row->display_type == 0){ echo 'selected'; } ?>  value="0">Pagination</option>
+									<option <?php if($row->display_type == 1){ echo 'selected'; } ?>   value="1">Load More</option>
+									<option <?php if($row->display_type == 2){ echo 'selected'; } ?>   value="2">Show All</option>
+						
+							</select>
+							</li>
+						<li id="content_per_page">
+							<label for="content_per_page">Images Per Page</label>
+							<input type="text" name="content_per_page" id="content_per_page" value="<?php echo $row->content_per_page; ?>" class="text_area" />
+						</li>
+						
+
+					
+					</ul>
+					</div>
+						<div id="gallery-current-options-7" class="gallery-current-options <?php if($row->huge_it_sl_effects == 7){ echo ' active'; }  ?>">
+					<ul id="view7">
+						
+						  <li>
+							<label for="display_type">Displaying Content</label>
+							<select id="display_type" name="display_type">
+
+								  <option <?php if($row->display_type == 0){ echo 'selected'; } ?>  value="0">Pagination</option>
+									<option <?php if($row->display_type == 1){ echo 'selected'; } ?>   value="1">Load More</option>
+									<option <?php if($row->display_type == 2){ echo 'selected'; } ?>   value="2">Show All</option>
+						
+							</select>
+							</li>
+						<li id="content_per_page">
+							<label for="content_per_page">Images Per Page</label>
+							<input type="text" name="content_per_page" id="content_per_page" value="<?php echo $row->content_per_page; ?>" class="text_area" />
+						</li>
+						
+
+					
+					</ul>
+					</div>
 
 
 					</ul>
@@ -728,6 +871,10 @@ jQuery(document).ready(function($){
 			</div>
 		</div>
 	</div>
+		<?php @session_start();
+		  $hugeItCSRFToken = $_SESSION["csrf_token_hugeit_gallery"] = md5(time());
+	?>
+	<input type="hidden" name="csrf_token_hugeit_gallery" value="<?php echo $hugeItCSRFToken; ?>" />
 	<input type="hidden" name="task" value="" />
 </form>
 </div>
@@ -825,7 +972,7 @@ function html_popup_posts($ord_elem, $count_ord,$images,$row,$cat_row, $rowim, $
 					<div id="huge_it_gallery_add_posts_wrap">
 						<h2>Add post</h2>
 						<div class="control-panel">
-						<form method="post"  onkeypress="doNothing()" action="admin.php?page=gallerys_huge_it_gallery&task=popup_posts&id=<?php echo $_GET['id']; ?>" id="huge-it-category-form" name="admin_form">
+						<form method="post"  onkeypress="doNothing()" action="admin.php?page=gallerys_huge_it_gallery&task=popup_posts&id=<?php echo esc_html($_GET['id']); ?>" id="huge-it-category-form" name="admin_form">
 							<label for="huge-it-categories-list">Select Category <select id="huge-it-categories-list" name="iframecatid" onchange="this.form.submit()">
 
 							 <?php $categories = get_categories(  ); ?>
@@ -845,7 +992,7 @@ else
 							?> 
 							</select></label>
 							</form>
-							<form method="post"  onkeypress="doNothing()" action="admin.php?page=gallerys_huge_it_gallery&task=popup_posts&id=<?php echo $_GET['id']; ?>&closepop=1" id="admin_form" name="admin_form">
+							<form method="post"  onkeypress="doNothing()" action="admin.php?page=gallerys_huge_it_gallery&task=popup_posts&id=<?php echo esc_html($_GET['id']); ?>&closepop=1" id="admin_form" name="admin_form">
 							<button class='save-gallery-options button-primary huge-it-insert-post-button' id='huge-it-insert-post-button-top'>Insert Posts</button>
 							<label for="huge-it-description-length">Description Length <input id="huge-it-description-length" type="text" name="posthuge-it-description-length" value="<?php echo $row->published; ?>" placeholder="Description length" /></label>
 							<div class="view-type-block">
@@ -980,10 +1127,10 @@ function html_gallery_video(){
 	<div id="huge_it_slider_add_videos">
 		<div id="huge_it_slider_add_videos_wrap">
 		<span class="buy-pro">This feature is disabled in free version. <br>If you need this functionality, you need to <a href="http://huge-it.com/wordpress-gallery/" target="_blank">buy the commercial version</a>.</span>
-			<h2>Add Video URL From Youtobe or Vimeo</h2>
+			<h2>Add Video URL From Youtube or Vimeo</h2>
 			<div class="control-panel">
 					<input type="text" id="huge_it_add_video_input" name="huge_it_add_video_input" />
-					<button class='save-slider-options button-primary huge-it-insert-video-button' id='huge-it-insert-video-button'>Insert Video Slide</button>
+					<button class='save-slider-options button-primary huge-it-insert-video-button' id='huge-it-insert-video-button'>Insert Video</button>
 					<div id="add-video-popup-options">
 						<div>
 							<div>

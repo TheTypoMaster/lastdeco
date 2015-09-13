@@ -1,10 +1,10 @@
-=== Gallery ===
+=== Image Gallery ===
 Contributors: Huge-IT
 Donate link: http://huge-it.com/wordpress-gallery/
-Tags: gallery, image gallery, gallery image, content slider, widget gallery, lightbox gallery, website gallery, gallery lightbox, image, images, content gallery, galleries, wordpress gallery, Picture Gallery, photo gallery, galeria, gallery, best gallery, thumbnail view, content gallery, media gallery, easy gallery, gallery plugin, plugin gallery, wordpress photo gallery plugin, add gallery, add image, add picture, add photo, galery, add images, add pictures, gallery wordpress, wp gallery, gallery slider, Galleria, simple gallery, wordpress gallery plugin, free gallery, free images, video gallery, youtube gallery, vimeo gallery, photo albums, grid gallery, images gallery, filterable gallery, grid, iphone gallery, photogallery, photoset, shortcode gallery, fullscreen gallery, justified, fullscreen slider, gallery shortcode, free photo gallery, best gallery plugin, photo album, image rotator, free slider, banner rotator, album, galeri, galerie, image album, wp gallery plugins, image gallery plugin, image slider, slideshow, slide, lightbox slider, slideshow gallery, watermarking, fotogalerie, responsive wordpress photo gallery, responsive gallery, art gallery, gallery, multiple pictures, fotoalbum, responsive galleries, photoalbum, jquery gallery, justified gallery, pictures, picture, photos, responsive,
+Tags: gallery, image gallery, gallery image, content slider, widget gallery, lightbox gallery, website gallery, gallery lightbox, image, images, content gallery, galleries, wordpress gallery, Picture Gallery, photo gallery, galeria, gallery, best gallery, thumbnail view, content gallery, media gallery, easy gallery, gallery plugin, plugin gallery, wordpress photo gallery plugin, add gallery, add image, add picture, add photo, galery,portfolio, add images, add pictures, gallery wordpress, wp gallery, gallery slider, Galleria, simple gallery, wordpress gallery plugin, free gallery, free images, video gallery, youtube gallery, vimeo gallery, photo albums, grid gallery, images gallery, filterable gallery, grid, iphone gallery, photogallery, photoset, shortcode gallery, fullscreen gallery, justified, fullscreen slider, gallery shortcode, free photo gallery, best gallery plugin, photo album, image rotator, free slider, banner rotator, album, galeri, galerie, image album, wp gallery plugins, image gallery plugin, image slider, slideshow, slide, lightbox slider, slideshow gallery, watermarking, fotogalerie, responsive wordpress photo gallery, responsive gallery, art gallery, gallery, multiple pictures, fotoalbum, responsive galleries, photoalbum, jquery gallery, justified gallery, pictures, picture, photos, responsive, photo, wp gallery plugin, foto, thumbnail gallery, wordpress responsive gallery, slide show, responsive photo gallery, responsive slideshow, post, posts, widget,
 Requires at least: 3.0.1
-Tested up to: 4.2.2
-Stable tag: 1.4.7
+Tested up to: 4.3
+Stable tag: 1.5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,51 +21,136 @@ Huge-IT Image Gallery is the best plugin to use if you want to be original with 
 
 https://www.youtube.com/watch?v=fNz0hW01k3k
 
-Huge-IT Image Gallery is the best plugin to use if you want to be original with your website. Image Gallery has specially made to allow it’s users create a lot of ways to represent your images, videos and information. Just add image or video wright descriptions and titles for each view of the Image Gallery and choose one from 6 unrepeatable views.
+Huge-IT Image Gallery is the best plugin among WordPress gallery plugins. If you want to be original with your website. Image Gallery  has been specially made to allow it’s users create a galley demonstrate it in different ways. Just add image or video in your new gallery, wright descriptions and titles for each item of the Image Gallery and choose one from 7 unrepeatable view, or 7 type of gallery.
 
-* Gallery / Content-Popup
-* Content Slider 
-* Ligthtbox Gallery
-* Huge-IT Slider 
-* Thumbnail view.
-* Justified.
+* Gallery / Content-Popup - Image Gallery
+* Content Slider - Image Gallery
+* Ligthtbox Gallery - Image Gallery
+* Huge-IT Slider - Image Gallery
+* Thumbnail view - Image Gallery
+* Justified - Image Gallery
+* Block Style Gallery - Image Gallery
 
-Each view has unique customizable options in “ General Options “ section to make them fit your taste. Almost every type of text can be change from the standpoint of text and color. Also there are a lot of features relative as to Image Gallery and thumbnails as to it's lightbox. Talking about Lightbox, notice, that Image Gallery plugin has separate options page, where you can choose one from 5 lightbox views, and customize it. And that way to create desirable style of your website. Show your image and video in it's best way!
+In free version of Image Gallery you are allowed to use all these  7 views. Demonstration of the gallery on front end can be made in different ways, no matter you use image gallery, video gallery or all both in one gallery.
 
-Image Gallery plugin offers you, being already easy to use and friendly admin panel, where you can add several images and videos at a time and immediately give them a title, description and link, goes to any page, and set the way it opens. Huge-IT Image Gallery and all other plugins of our company have very high quality support so you always can be sure that you will not have any problems, with this plugin. Our experts are always ready to respond any your questions. With our Image Gallery you can realize your most original ideas. 6 views of the Image Gallery gives you 6 ways to be the best! Each view of Image Gallery is original, elegant and will fit to any styles of your images, videos and information. No matter to slide or show your media in thumbnails, or give them a useful information and show both together, whatever you choose will look original, because we worked hard on making Image Gallery irrepetible. So you can always be bold in your ideas with Huge-IT Image Gallery.
+* 1) All gallery items in a long tape
+* 2) Divide gallery into pages - pagination for gallery
+* 3) Divide gallery into parts using “load more” button
 
-Considering the large number of galleries in WordPress, Huge-IT company day by day will improve and enhance the functionality of Image gallery, and keep on adhering to the first position among WordPress Gallery plugins. One of our new improvement is the video adding ability, besides images now you can also add any video you’d like from Youtube or Vimeo, just adding the video link you can get to show them in one of views. So We are sure our Image gallery will always satisfy you as our other 246,031+ users. Now just Install & Enjoy. All new information about new features and improvements that we made, you can find on our blog in the main page of Huge-it.com.
+All these 3 ways you can find on the right side of the galley admin page. 
+
+In licensed version each view of the Image Gallery has unique customizable options in “ General Options “ section to make them fit your taste. The options of the gallery are called general, because every gallery with certain type will have the same customization.  In Image Gallery almost every type of text can be change from the standpoint of text and color. Image Gallery also has a lot of features relative as to Image Gallery views and to it's Lightbox. Talking about Lightbox, notice, that Image Gallery plugin has separate options page, where you can choose one from 5 lightbox views, and customize it. Lightbox is given with image Gallery plugin, and being a part of Image Gallery. Using it within your gallery items you can make them come up individually. And that way to create desirable style of your website. Using our Image Gallery show your images and videos in it's best way!
+
+Image Gallery plugin offers you, being already easy to use and friendly admin panel for creating your gallery, add new gallery or adjust already created gallery, where you can add several images and videos at a time and immediately give them a title, description and link, which goes to any page, and set the way it opens. All these things you can make immediately on Image Gallery admin page, while creating your gallery. You are given an ability to create unlimited number of different galleries, give different name to each of gallery. Huge-IT Image Gallery and all other plugins of our company have very high quality support so you always can be sure that you will not have any problems, with this plugin. Our experts are always ready to respond any your questions related to our Image Gallery plugin, or to all your additional requests about gallery. With our Image Gallery you can realize your most original ideas.
+
+7 views of the Image Gallery gives you 7 ways to be the best!
+
+Each view of Image Gallery is original, elegant and will fit to any styles of your images/videos and information. No matter to slide the gallery or show your media in thumbnails, or give them a useful information and show both together, whatever you choose for your your gallery will look original, because we worked hard on making Image Gallery irrepetible. You can always be bold in your ideas with Huge-IT Image Gallery.
+
+
+Considering the large number of gallery plugins in WordPress, Huge-IT company day by day will improve and enhance the functionality of Image Gallery, and keep on adhering to the first position among WordPress Gallery plugins. One of our new improvement is the video adding ability in Image Gallery, besides images now you can also add any video you’d like from Youtube or Vimeo, just adding the video link you can get to show them in one of Image Gallery views.  So We are sure our Image Gallery  will always satisfy you.
+
+Now just Install & Enjoy. All new information about new features and improvements that we made, you can find on our blog in the main page of Huge-it.com.
 
 ### The features of the Image Gallery
 
-### 6 Views Options 
+### 7 Views Options 
 
 **Gallery / content-popup  -  Image Gallery**
 
 This type of view Image Gallery view shows each post with it’s picture, title under text open in popup and make them larger. The button “View More” is under the text also inside the popup, it opens more information about the content. to close the popup press “cross” button and get back to the tape.
+Description text allows any type of HTML modifications, which you can make straight on image gallery admin page, while creating your gallery.
+Your image inside popup can take it’s natural size  or be resized up to the size of the whole popup. 
+With Image Gallery pro license you are allowed to make many kind of changes on element and on popup, like color, size and so on.  More information about available changes on Gallery/Content Popup view of Image gallery you can learn from User Manual
+
+Main features of Gallery/Content-Popup view of Image Gallery
+* Popup tool, with text content in it - Image Gallery
+* Add description of the gallery in popup - Image Gallery
+* External link  on “view more” button - Image Gallery
+
 
 **Content slider  -  Image Gallery** 
 
-In this view you can see your images with it’s text it’s title and “View More” button inside the slider. Just click on the arrows on the corners and move to the next.
+This type of Gallery in Image Gallery plugin allows you to see your images or videos with it’s description text, it’s title and “View More” button inside the slider. Just click on the arrows on the corners which appear as you hover a mouse over the gallery. By clicking on the arrows of the gallery in Content Slider view, you can slider your content, from left to right.
+
+Main features of Content Slider view of Image Gallery.
+* Add description of the gallery in popup - Image Gallery
+* External link - “view more” button - Image Gallery
+* Sliding gallery items - Image Gallery
+
 
 **Ligthtbox gallery  -  Image Gallery**
 
-This view of Image Gallery allows you to add your images without text. The title comes up in the bottom of the image as you hover on it. Images make larger with the lightbox and you can slide to watch them.
+Using Lightybox Gallery view while creating a gallery, there is no need to fill the description field of the images/videos of the gallery. Because this type of gallery doesn’t show any description. In this type of gallery you will see only the title of the gallery items, which comes up in the bottom of the item as you hover a mouse on it. Images make larger with the lightbox and you can slide to watch them. If you need to be directed to your external URL link, you should click on the title of the gallery item.
+Main features of Lightbox Gallery view of Image Gallery.
+* No description - Image Gallery
+* External URL - on title click - Image Gallery
+* Full dimensions of the images - Image Gallery
+
 
 **Slider  -  Image Gallery**
 
-If you know Slider and like it, you will be glad to set this view, because it is almost the same. Your picture with its title and description on the image, moves with many wonderful effects as you click on arrows.
+If you know Huge-IT Slider and like it, you will be glad to set this view, In Image Gallery plugin you can set up Slider view for your gallery items. Your picture with its title and description on the image, moves with many wonderful effects as you click on arrows. This is very interesting way of demonstrating as videos and photos of your gallery.
+Main features of Slider view of Image Gallery
+* Description text of the gallery on slider, if gallery items are images - Image Gallery
+* External link - on image click, if gallery items are images - Image Gallery
+* Current options available in free version - Image Gallery
+* Sliding effects - Image Gallery
+* and others...
+
 
 **Thumbnails View  -  Image Gallery**
 
-This view shows your images like thumbnail. As you click  they open in lightbox, and you can scroll them. there is not any text with it, only it’s title.
+This type of Gallery shows your images like thumbnails. using Thumbnails Gallery view upload images with similar size, because the thumbnails are the same One you click on thumbnail, you gallery items open in lightbox, and you can scroll images in within all gallery. Thumbnails Gallery doesn’t show any description text, only title which come up with transparent layer on the thumbnail of the gallery item, once you hover a mouse on it.
+Main features of Thumbnails view of Image Gallery
+* Similar boxes for every image in gallery - Image Gallery
+* Lightbox tool on images and videos on clicking the thumbnail - Image Gallery
+* No description - Image Gallery
+
 
 **Justified  -  Image Gallery**
 
-Justified view allows you to represent your images and videos in a little sizes each next to other like a horizontal line or tape. By hovering on them, appears the title of the image/video. Clicking on the image / video it opens in lightbox, giving a beautiful view to them.
+Justified view of the Image Gallery allows you to represent your images and videos within your created gallery next to each other without padding between them. The interesting thing about this gallery type, is that it has “order changing” function, which you need to enable from General Options, and your images/videos will be changed in order within gallery while refreshing the page. By hovering on the items of the gallery, appears the title with background. Clicking on the image/video it opens in lightbox, giving a beautiful view to them.
+Main features of Justified view of Image Gallery
+* No padding between gallery items - Image Gallery
+* Shuffling effect on gallery items - Image Gallery
+* Multi sized items - Image Gallery
+* Lightbox tool - Image Gallery
+* No description - Image Gallery
 
+
+
+**Blog Style Gallery  -  Image Gallery**
+
+Using Image Gallery with Block Style Gallery views is the simplest and most  understanding way of demonstrating your content within gallery. This view is made to simply display your images/videos with it’s natural dimensions, with title above and description under it. Of course, the position of title and description can be changed from General options of the Block Style Gallery view.  Description of the image gallery allows to use html modified text, so you can beautifully create your projects and place them one under each other.  The outstanding feature of this gallery view, you can add pagination or load more symbol at the end of the gallery page, and this way divide your projects into pages.
+* Gallery item natural size - Image Gallery
+* Pagination for gallery - Image Gallery
+* Load more button for gallery items - Image Gallery
+
+To see all these fantastic gallery views in demo, go through the links below, and choose the best look for your gallery.
+
+
+> #### Image Gallery Demos 
+>
+>[Gallery /Content Popup - Gallery](http://huge-it.com/wordpress-plugins-gallery-demo/)
+>
+>[Content Slider - Gallery](http://huge-it.com/wordpress-gallery-demo-2-content-slider/)
+>
+>[Lightbox Gallery - Gallery](http://huge-it.com/wordpress-gallery-demo-3-lightbox-gallery/)
+>
+>[Slider - Gallery](http://huge-it.com/joomla-extansions-demo-4-slider-2/)
+>
+>[Thumbnails - Gallery](http://huge-it.com/wordpress-gallery-demo-5-thumbnails/)
+>
+>[Justified Gallery - Gallery](http://huge-it.com/wordpress-plugins-gallery-justified-gallery/)
+>
+>[Blog Style Gallery - Gallery](http://huge-it.com/wordpress-plugins-gallery-blog-style-gallery/)
+>
+>[Demo Image Gallery Admin](http://huge-it.com/wordpress-plugins-gallery-demo-admin/)
 
 If you think, that you found a bug in our [WordPress Image Gallery](http://huge-it.com/wordpress-gallery/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
+
+### Wordpress Image Gallery
 
 == Installation ==
 
@@ -99,7 +184,7 @@ Now you can set your Image Gallery options, images and use our Image Gallery.
 
 ### Image Gallery
 
-**How to get a copy of most recent version ?**
+**How to get a copy of most recent version ? **
 Pro users can get update versions contacting us by info@huge-it.com.
 Free version  users will find update notification in their wordpress admin panel.
  
@@ -107,11 +192,14 @@ Free version  users will find update notification in their wordpress admin panel
 **I have paid for pro version and didn’t get the link or file to update**
 If you made purchase and didn’t get the file, or file was corrupt, contact us by info@huge-it.com and send “order number”, we will check and send you the file as soon as possible
 
+
 **Have purchased pro version still get the announcement to buy the commercial version to change settings. What to do ?**
 This can happen because of your browser’s cache files. Press ctrl+f5 (Chrome, FF) in order to clean them, if you use safari, etc., clean from browser settings
 
+
 **Will I lose all my changes that I made in free version, if I update to pro version? **
 All kind of changes made in free version will remain, even if you delete the plugin
+
 
 **How to change “New Gallery” name?**
 In order to change Image Gallery name just double click on it’s name (on top tabs)
@@ -120,6 +208,7 @@ In order to change Image Gallery name just double click on it’s name (on top t
 In order to add name to your image and see it in lightbox. 
 Add attribute title=”X” in <a> tag of image code, where X is the name, 
 Set “show the title” from Lightbox Options
+
 
 **I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again?**
 If you have any pro version of our products and want to upgrade it, you do not need to buy the new one again, you only need to pay the difference price.
@@ -142,6 +231,24 @@ In order it could work there too, you should.
 ### If you think, that you found a bug in our [WordPress Image Gallery](http://huge-it.com/wordpress-gallery/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Changelog ==
+
+= 1.5.7 =
+*  Bug fixed in Image Gallery.
+
+= 1.5.6 =
+*  Bug fixed in Image Gallery.
+
+= 1.5.1 =
+*  Bug fixed in Image Gallery.
+
+= 1.5.0 =
+*  Bug fixed in Image Gallery.
+
+= 1.4.9 =
+*  Bug fixed in Image Gallery.
+
+= 1.4.8 =
+*  Added page navigation and load more on Video Gallery.
 
 = 1.4.7 =
 *  Bug fixed in Image Gallery.

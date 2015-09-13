@@ -3,18 +3,18 @@ Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: facebook, facebook like, facebook widget, facebook page, facebook share, facebook share button, Like, like button, Share, share button, facebook fanbox, facebook page, page, plugin, posts, publish Facebook, sidebar, social, Social Plugins, facebook embed, facebook events, Facebook feed, Like Button Widget,wall, facebook wall, facebook photos, share, tweets, facebook share, facebook news, news, feeds
 Requires at least: 3.0
-Tested up to: 4.2.2
-Stable tag: 1.5
+Tested up to: 4.3
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Facebook By Weblizar is Facebook Like Box plugin comes with Facebook Like Box Widget & Shortcode.
+Facebook Like Box plugin comes with Facebook Like Box Widget & Shortcode.
 
 == Description ==
 
-Facebook by [Weblizar](http://www.weblizar.com/) plugin is very simple and easy facebook widget plugin to display your facebook page live stream & friends on WordPress blog.
+Facebook like box pluign to display facebook page live stream & friends on WordPress blog.
 
-Using **Facebook By Weblizar** facebook widget publish your facbook page post & show your facebook page fans.
+Using **Facebook Like Box Plugin** facebook widget publish your facbook page post & show your facebook page fans.
 
 Using **[FBW]** shortcode you can publish your facbook like page on any Page or Post.
 
@@ -30,13 +30,9 @@ Check screentshots section.
 * Facebook Page Like Button
 * Facebook Page Live Stream
 * Facebook Page Fan Faces
-* Facebook Page Border Option
 * Facebook Page Custom Height & Width Option
-* Compatible With All Mobile Tablets Device 
-* All Browser Support
-* Responsive Facebook Wall
 * Latest Facebook Wall Feeds Displays
-* Display Fans Page OR Users
+* Like & Share Button for each feed in likebox
 
 ### Language Contributors
 
@@ -88,6 +84,10 @@ Please use WordPress support forum to ask any query regarding any issue.
 
 For more information, see [Weblizar](http://wwww.weblizar.com/) .
 
+= 1.6 26/08/2015 = 
+* Update: widget & shortcode theme setting removed
+* Update: Header show/hide option depricated in API v2.4
+
 = 1.5 14/07/2015 = 
 * Resolved small bug issue
 
@@ -130,14 +130,11 @@ For more information, see [Weblizar](http://wwww.weblizar.com/) .
 * Remove small script error
 
 = 0.4 =
-
 * Remove Small bug.
 
 = 0.2 =
-
 * Now compatible with all mobile devices.
 
 = 0.1 =
-
 * Feature - Facebook Widget 
 * Feature - Facebook Widget Settings Panel

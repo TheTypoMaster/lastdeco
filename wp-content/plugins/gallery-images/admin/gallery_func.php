@@ -18,6 +18,7 @@ function showgallery()
 	
 	if(isset($_POST['search_events_by_title'])){
 	$search_tag=esc_html(stripslashes($_POST['search_events_by_title']));
+	$search_tag=sanitize_text_field($search_tag);
 	}
 	else
 	{
@@ -89,10 +90,14 @@ function editgallery($id)
 	  
 	  global $wpdb;
 	  
+	  				 @session_start();
+		 if(isset($_POST['csrf_token_hugeit_gallery']) && (!isset($_SESSION["csrf_token_hugeit_gallery"]) || $_SESSION["csrf_token_hugeit_gallery"] != @$_POST['csrf_token_hugeit_gallery']))
+		 { exit; }
+	  
 	if(isset($_POST["huge_it_sl_effects"])){
 		if(isset($_GET["removeslide"])){
 			if($_GET["removeslide"] != ''){
-				$idfordelete = $_GET["removeslide"];
+				$idfordelete = sanitize_text_field($_GET["removeslide"]);
 				$wpdb->query($wpdb->prepare("DELETE FROM ".$wpdb->prefix."huge_itgallery_images  WHERE id = %d ", $idfordelete));
 			}
 		}
@@ -247,26 +252,59 @@ function apply_cat($id)
 	
             $query=$wpdb->prepare("SELECT sl_width FROM ".$wpdb->prefix."huge_itgallery_gallerys WHERE id = %d", $id);
 	        $id_bef=$wpdb->get_var($query);
+			
+					 @session_start();
+		 if(isset($_POST['csrf_token_hugeit_gallery']) && (!isset($_SESSION["csrf_token_hugeit_gallery"]) || $_SESSION["csrf_token_hugeit_gallery"] != @$_POST['csrf_token_hugeit_gallery']))
+		 { exit; }
       
 	if(isset($_POST["content"])){
 	$script_cat = preg_replace('#<script(.*?)>(.*?)</script>#is', '', stripslashes($_POST["content"]));
 	}
-			if(isset($_POST["name"])){
-			if($_POST["name"] != ''){
+	if(isset($_POST["name"])){
+		$pName=sanitize_text_field($_POST["name"]);
+		$pSlwidth=sanitize_text_field($_POST["sl_width"]);
+		$pSlheight=sanitize_text_field($_POST["sl_height"]);
+		$pPouseOnHover=sanitize_text_field($_POST["pause_on_hover"]);
+		$pGalleryListEffects=sanitize_text_field($_POST["gallery_list_effects_s"]);
+		$pSlPausetime=sanitize_text_field($_POST["sl_pausetime"]);
+		$pSlChangespeed=sanitize_text_field($_POST["sl_changespeed"]);
+		$pSlPosition=sanitize_text_field($_POST["sl_position"]);
+		$pSlEffect=sanitize_text_field($_POST["huge_it_sl_effects"]);
+		$pDisplayType=sanitize_text_field($_POST["display_type"]);
+		$pContrentPP=sanitize_text_field($_POST["content_per_page"]);
 			
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  name = %s  WHERE id = %d ", $_POST["name"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_width = %s  WHERE id = %d ", $_POST["sl_width"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_height = %s  WHERE id = %d ", $_POST["sl_height"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  pause_on_hover = %s  WHERE id = %d ", $_POST["pause_on_hover"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  gallery_list_effects_s = %s  WHERE id = %d ", $_POST["gallery_list_effects_s"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  description = %s  WHERE id = %d ", $_POST["sl_pausetime"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  param = %s  WHERE id = %d ", $_POST["sl_changespeed"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_position = %s  WHERE id = %d ", $_POST["sl_position"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  huge_it_sl_effects = %s  WHERE id = %d ", $_POST["huge_it_sl_effects"], $id));
-	$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  ordering = '1'  WHERE id = %d ", $id));
+		if(isset($pName) && isset($pDisplayType) && isset($pContrentPP)){
+		if($pName != ''){
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  name = %s  WHERE id = %d ", $pName, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_width = %s  WHERE id = %d ", $pSlwidth, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_height = %s  WHERE id = %d ", $pSlheight, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  pause_on_hover = %s  WHERE id = %d ", $pPouseOnHover, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  gallery_list_effects_s = %s  WHERE id = %d ", $pGalleryListEffects, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  description = %s  WHERE id = %d ", $pSlPausetime, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  param = %s  WHERE id = %d ", $pSlChangespeed, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_position = %s  WHERE id = %d ", $pSlPosition, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  huge_it_sl_effects = %s  WHERE id = %d ", $pSlEffect, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  display_type = %s  WHERE id = %d ", $pDisplayType, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  content_per_page = %s  WHERE id = %d ", $pContrentPP, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  ordering = '1'  WHERE id = %d ", $id));
 			}
+		}	
+		if(isset($pName)){
+			if($pName != ''){
+					
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  name = %s  WHERE id = %d ", $pName, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_width = %s  WHERE id = %d ", $pSlwidth, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_height = %s  WHERE id = %d ", $pSlheight, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  pause_on_hover = %s  WHERE id = %d ", $pPouseOnHover, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  gallery_list_effects_s = %s  WHERE id = %d ", $pGalleryListEffects, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  description = %s  WHERE id = %d ", $pSlPausetime, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  param = %s  WHERE id = %d ", $pSlChangespeed, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  sl_position = %s  WHERE id = %d ", $pSlPosition, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  huge_it_sl_effects = %s  WHERE id = %d ", $pSlEffect, $id));
+				$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  ordering = '1'  WHERE id = %d ", $id));
 			}
-		
+		}
+}
 	$query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_gallerys WHERE id = %d", $id);
 	   $row=$wpdb->get_row($query);
 
@@ -360,17 +398,17 @@ function apply_cat($id)
 			    $query=$wpdb->prepare("SELECT * FROM ".$wpdb->prefix."huge_itgallery_images where gallery_id = %d order by id ASC", $row->id);
 			   $rowim=$wpdb->get_results($query);
 			   
-			   foreach ($rowim as $key=>$rowimages){
-if(isset($_POST["order_by_".$rowimages->id.""])){
-$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  ordering = '".$_POST["order_by_".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
-$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  link_target = '".$_POST["sl_link_target".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
-$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  sl_url = '".$_POST["sl_url".$rowimages->id.""]."' WHERE ID = %d ", $rowimages->id));
-$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  name = '".$_POST["titleimage".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
-$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  description = '".$_POST["im_description".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
-$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  image_url = '".$_POST["imagess".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
-				huge_it_copy_image_to_small($_POST["imagess".$rowimages->id.""],$image_prefix,$cropwidth);	
-}
-}
+		foreach ($rowim as $key=>$rowimages){
+			if(isset($_POST["order_by_".$rowimages->id.""])){
+			$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  ordering = '".$_POST["order_by_".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
+			$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  link_target = '".$_POST["sl_link_target".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
+			$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  sl_url = '".$_POST["sl_url".$rowimages->id.""]."' WHERE ID = %d ", $rowimages->id));
+			$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  name = '".str_replace('%','__5_5_5__',$_POST["titleimage".$rowimages->id.""])."'  WHERE ID = %d ", $rowimages->id));
+			$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  description = '".str_replace('%','__5_5_5__',$_POST["im_description".$rowimages->id.""])."'  WHERE ID = %d ", $rowimages->id));
+			$wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_images SET  image_url = '".$_POST["imagess".$rowimages->id.""]."'  WHERE ID = %d ", $rowimages->id));
+							huge_it_copy_image_to_small($_POST["imagess".$rowimages->id.""],$image_prefix,$cropwidth);	
+			}
+		}
 
 if (isset($_POST['params'])) {
       $params = $_POST['params'];
@@ -413,7 +451,10 @@ INSERT INTO
 	   }
 	   
 	if(isset($_POST["posthuge-it-description-length"])){
-	 $wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  published = %d WHERE id = %d ", $_POST["posthuge-it-description-length"], $_GET['id']));
+	$pHugeDescriptionLength=sanitize_text_field($_POST["posthuge-it-description-length"]);
+	if(isset($pHugeDescriptionLength)){
+	 $wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."huge_itgallery_gallerys SET  published = %d WHERE id = %d ", $pHugeDescriptionLength, $_GET['id']));
+}
 }
 	?>
 	<div class="updated"><p><strong><?php _e('Item Saved'); ?></strong></p></div>
