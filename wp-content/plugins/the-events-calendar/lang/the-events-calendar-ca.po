@@ -268,7 +268,7 @@ msgstr "Maryland"
 
 #: src/Tribe/View_Helpers.php:337
 msgid "Massachusetts"
-msgstr "Massachussets"
+msgstr "Massachusetts"
 
 #: src/Tribe/View_Helpers.php:338
 msgid "Michigan"
